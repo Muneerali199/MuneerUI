@@ -1,0 +1,177 @@
+/* MuneerUI Custom Theme */
+
+
+/* A modern, vibrant color scheme with purple and blue gradients */
+
+:root {
+    /* Primary Brand Colors */
+    --muneer-primary: #667eea;
+    --muneer-secondary: #764ba2;
+    --muneer-accent: #fbbf24;
+    --muneer-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /* Background Colors */
+    --muneer-bg-dark: #0f0f1e;
+    --muneer-bg-darker: #060010;
+    --muneer-bg-card: rgba(103, 126, 234, 0.05);
+    /* Text Colors */
+    --muneer-text-primary: #ffffff;
+    --muneer-text-secondary: #a78bfa;
+    --muneer-text-muted: #9ca3af;
+    /* Glow Effects */
+    --muneer-glow: 0 0 20px rgba(103, 126, 234, 0.3);
+    --muneer-glow-strong: 0 0 40px rgba(103, 126, 234, 0.5);
+}
+
+
+/* Override default theme colors */
+
+html {
+    background: var(--muneer-bg-darker) !important;
+}
+
+body {
+    background: var(--muneer-bg-darker) !important;
+}
+
+
+/* Hero section gradient text effect */
+
+.landing-title {
+    background: var(--muneer-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* Button styling */
+
+.landing-button {
+    background: var(--muneer-gradient) !important;
+    box-shadow: var(--muneer-glow) !important;
+    transition: all 0.3s ease !important;
+}
+
+.landing-button:hover {
+    box-shadow: var(--muneer-glow-strong) !important;
+    transform: translateY(-2px) !important;
+}
+
+
+/* Header CTA button */
+
+.cta-button {
+    background: var(--muneer-gradient) !important;
+    border: none !important;
+    box-shadow: var(--muneer-glow) !important;
+}
+
+.cta-button:hover {
+    box-shadow: var(--muneer-glow-strong) !important;
+    transform: translateY(-2px) !important;
+}
+
+
+/* New badge styling */
+
+.hero-new-badge {
+    background: var(--muneer-gradient) !important;
+    box-shadow: var(--muneer-glow) !important;
+}
+
+
+/* Feature cards glow effect */
+
+.feature-card {
+    background: var(--muneer-bg-card) !important;
+    border: 1px solid rgba(103, 126, 234, 0.2) !important;
+    transition: all 0.3s ease !important;
+}
+
+.feature-card:hover {
+    border-color: var(--muneer-primary) !important;
+    box-shadow: var(--muneer-glow) !important;
+}
+
+
+/* Card headers with gradient */
+
+.feature-card h2 {
+    background: var(--muneer-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* Footer link hover effect */
+
+.footer-link:hover {
+    color: var(--muneer-primary) !important;
+    text-decoration: none !important;
+}
+
+
+/* Heart icon color */
+
+.footer-heart {
+    color: #ef4444 !important;
+}
+
+
+/* Active nav link */
+
+.active-link {
+    color: var(--muneer-primary) !important;
+    border-bottom: 2px solid var(--muneer-primary) !important;
+}
+
+
+/* Particle effect colors */
+
+.particle {
+    background: var(--muneer-primary) !important;
+    box-shadow: 0 0 6px var(--muneer-primary) !important;
+}
+
+
+/* Spotlight effect */
+
+.global-spotlight {
+    background: radial-gradient( circle, rgba(103, 126, 234, 0.15) 0%, rgba(103, 126, 234, 0.08) 15%, rgba(103, 126, 234, 0.04) 25%, rgba(103, 126, 234, 0.02) 40%, rgba(103, 126, 234, 0.01) 65%, transparent 70%) !important;
+}
+
+
+/* Scrollbar styling */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--muneer-bg-darker);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--muneer-gradient);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+
+/* Announcement bar */
+
+.announcement {
+    background: var(--muneer-gradient) !important;
+}
+
+
+/* Code syntax highlighting accent */
+
+.token.keyword,
+.token.function {
+    color: var(--muneer-primary) !important;
+}
