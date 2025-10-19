@@ -1,19 +1,19 @@
 name: 💡 Feature Request
-description: Suggest something for React Bits.
+description: Suggest something for MuneerUI.
 labels: ['enhancement']
 title: '[FEAT]: '
 body:
   - type: markdown
     attributes:
       value: |
-        ## Thanks for trying to improve React Bits!
+        ## Thanks for trying to improve MuneerUI!
         Before continuing make sure you have checked other issues to see if your idea has already been discussed / addressed.
   - type: textarea
     id: desc
     attributes:
       label: Share your suggestion
-      description: What would you like to see in React Bits?
-      placeholder: I want flying pigs in a component please
+      description: What would you like to see in MuneerUI?
+      placeholder: Share your ideas for new components or features
     validations:
       required: true
   - type: checkboxes

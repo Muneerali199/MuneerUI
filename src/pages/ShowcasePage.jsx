@@ -81,7 +81,7 @@ const ShowcasePage = () => {
               <Box as="a" href={item.url} rel="noreferrer" target="_blank" className="grid-item" key={item.url}>
                 <img
                   className="showcase-img"
-                  src={`https://davidhaz.com/react-bits-showcase/showcase-${index + 1}.webp`}
+                  src={`/assets/showcase/showcase-${index + 1}.webp`}
                   alt={`Showcase website submitted by: ${item.name ? item.name : 'Anonymous'}`}
                 />
                 <div className="showcase-info">
