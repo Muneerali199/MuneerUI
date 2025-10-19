@@ -14,9 +14,9 @@ const McpServer = () => {
 
   return (
     <section className="docs-section">
-      <p className="docs-paragraph dim">
-        The React Bits MCP Server enables AI assistants to intelligently browse, search, and recommend components from
-        the React Bits library.
+      <p className="docs-paragraph">
+        The MuneerUI MCP Server enables AI assistants to intelligently browse, search, and recommend components from
+        the MuneerUI library.
       </p>
 
       <h3 className="docs-category-title">What is MCP?</h3>
@@ -54,7 +54,7 @@ const McpServer = () => {
 
       {selectedMethod === 'cursor' && (
         <>
-          <p className="docs-paragraph dim">Add the React Bits MCP Server to your Cursor configuration:</p>
+          <p className="docs-paragraph dim">Add the MuneerUI MCP Server to your Cursor configuration:</p>
 
           <h4 className="docs-category-subtitle">1. Open Cursor Settings</h4>
 
@@ -82,9 +82,9 @@ const McpServer = () => {
 
           <h4 className="docs-category-subtitle">3. Enable the MCP Server</h4>
 
-          <p className="docs-paragraph">
-            After adding the configuration, toggle the React Bits MCP server on in the MCP settings. You should see the
-            server connect successfully in the MCP status indicator.
+                    <p className="docs-paragraph dim">
+            After adding the configuration, toggle the MuneerUI MCP server on in the MCP settings. You should see the
+            server listed with its available tools.
           </p>
         </>
       )}
@@ -201,7 +201,7 @@ const McpServer = () => {
 
       <h3 className="docs-category-title">Features</h3>
 
-      <p className="docs-paragraph">The React Bits MCP Server provides intelligent component recommendations with:</p>
+      <p className="docs-paragraph">The MuneerUI MCP Server provides intelligent component recommendations with:</p>
 
       <ul className="docs-list">
         <li className="docs-list-item">
@@ -226,9 +226,9 @@ const McpServer = () => {
 
       <h4 className="docs-category-subtitle">That&apos;s all!</h4>
 
-      <p className="docs-paragraph">
-        Your AI assistant now has intelligent access to the entire React Bits component library. Ask for
-        recommendations, get instructions, or explore components!
+            <p className="docs-paragraph">
+        Your AI assistant now has intelligent access to the entire MuneerUI component library. Ask for
+        recommendations, browse components, or get specific components installed with just a conversation.
       </p>
 
       <DocsButtonBar

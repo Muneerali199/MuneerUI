@@ -95,7 +95,7 @@ const ScrollVelocityDemo = () => {
       <PreviewTab>
         <Box position="relative" className="demo-container" h={600} maxH={600} overflow={'hidden'}>
           <Flex position="relative" justifyContent="center" alignItems="center">
-            <ScrollVelocity texts={['React Bits', 'Scroll Down']} velocity={velocity} className="custom-scroll-text" />
+            <ScrollVelocity texts={['MuneerUI', 'Scroll Down']} velocity={velocity} className="custom-scroll-text" />
           </Flex>
         </Box>
 

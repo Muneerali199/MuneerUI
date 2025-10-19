@@ -141,7 +141,7 @@ const ShuffleDemo = () => {
         <Box position="relative" className="demo-container flex items-center justify-center" h={300} overflow="hidden">
           <Shuffle
             key={key}
-            text="REACT BITS"
+            text="MUNEERUI"
             ease={ease}
             duration={duration}
             shuffleTimes={shuffleTimes}

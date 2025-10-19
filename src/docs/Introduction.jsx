@@ -25,9 +25,10 @@ const Introduction = () => {
 
       <h3 className="docs-category-title">Mission</h3>
 
-      <p className="docs-paragraph dim">
-        The goal of React Bits is simple - provide flexible, visually stunning and most importantly, free components
-        that take web projects to the next level.
+            <p className="docs-paragraph">
+        The goal of MuneerUI is simple - provide flexible, visually stunning and most importantly, free components
+        for <span className="docs-highlight">every developer</span> who wants to make the web a beautiful place to
+        explore.
       </p>
       <p className="docs-paragraph">To make that happen, the project is committed to the following principles:</p>
 
@@ -40,9 +41,9 @@ const Introduction = () => {
           <span className="docs-highlight">Prop-First Approach:</span> Easy customization through thoughtfully exposed
           props
         </li>
-        <li className="docs-list-item">
-          <span className="docs-highlight">Fully Modular:</span> Install strictly what you need, React Bits is not a
-          dependency
+                <li className="docs-list-item">
+          <span className="docs-highlight">Fully Modular:</span> Install strictly what you need, MuneerUI is not a
+          traditional NPM package, you simply copy the code you need directly into your project.
         </li>
         <li className="docs-list-item">
           <span className="docs-highlight">Free Choice:</span> JS or TS, plain CSS or Tailwind, the code is all here
@@ -65,9 +66,13 @@ const Introduction = () => {
 
       <h4 className="docs-category-subtitle">Fully Modular</h4>
 
-      <p className="docs-paragraph">
-        React Bits is not your classic NPM library, you install only the components you need by either copying the code
-        or using the CLI, without pulling in a whole library.
+            <p className="docs-paragraph">
+        MuneerUI is not your classic NPM library, you install only the components you need by either copying the code
+        manually from the docs, or by{' '}
+        <a href="/docs/installation/shadcn" className="docs-link">
+          using the Shadcn CLI
+        </a>
+        .
       </p>
 
       <h4 className="docs-category-subtitle">Free Choice</h4>
@@ -84,8 +89,8 @@ const Introduction = () => {
       <h3 className="docs-category-title">Performance</h3>
 
       <p className="docs-paragraph dim">
-        While we do everything possible to optimize components and offer the best experience, here are some tips to keep
-        in mind when using React Bits:
+        While the focus of the components is flexibility and modularity, there are some good practices you should keep
+        in mind when using MuneerUI:
       </p>
 
       <ul className="docs-list">

@@ -94,11 +94,13 @@ const MagnetDemo = () => {
         <h2 className="demo-title-extra">Link</h2>
         <Box position="relative" className="demo-container" minH={300}>
           <Magnet padding={Math.floor(padding / 2)} disabled={disabled} magnetStrength={magnetStrength}>
-            <a href="https://github.com/DavidHDev/react-bits" target="_blank" rel="noreferrer">
-              <Flex fontSize="lg" color="#fff">
-                Star&nbsp;<Text color="#5227FF">React Bits</Text>&nbsp;on GitHub!
-              </Flex>
-            </a>
+            <div className="magnet-demo-card">
+              <a href="https://github.com/Muneerali199/MuneerUI" target="_blank" rel="noreferrer">
+                <MagnetContainer className="magnet-demo-button">
+                  Star&nbsp;<Text color="#5227FF">MuneerUI</Text>&nbsp;on GitHub!
+                </MagnetContainer>
+              </a>
+            </div>
           </Magnet>
         </Box>
 

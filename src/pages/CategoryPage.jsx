@@ -29,7 +29,7 @@ const CategoryPage = () => {
 
   return (
     <Box className={`category-page ${isLoading ? 'loading' : ''}`} ref={scrollRef}>
-      <title>{`React Bits - ${decodedLabel}`}</title>
+      <title>{`MuneerUI - ${decodedLabel}`}</title>
 
       <Box className="page-transition-fade" style={{ opacity }}>
         <h2 className={`sub-category ${isGetStartedRoute ? 'docs-category-title' : ''}`}>{decodedLabel}</h2>
