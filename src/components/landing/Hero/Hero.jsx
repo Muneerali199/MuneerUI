@@ -77,7 +77,7 @@ const Hero = () => {
           splitType="words"
           delay={25}
           duration={1}
-          text="MuneerUI - A complete collection of 110+ stunning, animated React components. Crafted by Muneer Ali to help developers create exceptional user experiences effortlessly."
+          text="110+ stunning, animated React components built by Muneer Ali Subzwari. Copy, paste, and customize - it's that simple. Free, open-source, and production-ready."
         />
 
         <Link to={'/text-animations/split-text'} className="landing-button">

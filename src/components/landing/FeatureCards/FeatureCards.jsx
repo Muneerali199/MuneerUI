@@ -16,7 +16,7 @@ const ParticleCard = ({ children, className = '', disableAnimations = false }) =
     el.className = 'particle';
     el.style.cssText = `
       position:absolute;width:4px;height:4px;border-radius:50%;
-      background:rgba(132,0,255,1);box-shadow:0 0 6px rgba(132,0,255,.6);
+      background:rgba(102,126,234,1);box-shadow:0 0 6px rgba(102,126,234,.6);
       pointer-events:none;z-index:100;left:${x}px;top:${y}px;
     `;
     return el;
@@ -119,8 +119,8 @@ const GlobalSpotlight = ({ gridRef, disableAnimations = false }) => {
     spotlight.className = 'global-spotlight';
     spotlight.style.cssText = `
       position:fixed;width:800px;height:800px;border-radius:50%;pointer-events:none;
-      background:radial-gradient(circle,rgba(132,0,255,.15) 0%,rgba(132,0,255,.08) 15%,
-      rgba(132,0,255,.04) 25%,rgba(132,0,255,.02) 40%,rgba(132,0,255,.01) 65%,transparent 70%);
+      background:radial-gradient(circle,rgba(102,126,234,.15) 0%,rgba(102,126,234,.08) 15%,
+      rgba(102,126,234,.04) 25%,rgba(102,126,234,.02) 40%,rgba(102,126,234,.01) 65%,transparent 70%);
       z-index:200;opacity:0;transform:translate(-50%,-50%);mix-blend-mode:screen;
     `;
     document.body.appendChild(spotlight);
@@ -210,8 +210,8 @@ const FeatureCards = () => {
               <img src="/assets/messages.gif" alt="Messages animation" className="messages-gif" />
             </div>
             <h2>{isMobile ? '100' : <CountUp to={100} />}%</h2>
-            <h3>Free &amp; Open Source</h3>
-            <p>Loved by devs around the world</p>
+            <h3>Free & Open Source</h3>
+            <p>Built by Muneer Ali Subzwari for developers worldwide</p>
           </ParticleCard>
 
           <ParticleCard className="feature-card card2" disableAnimations={isMobile}>
@@ -219,8 +219,8 @@ const FeatureCards = () => {
               <img src="/assets/components.gif" alt="Components animation" className="components-gif" />
             </div>
             <h2>{isMobile ? '110' : <CountUp to={110} />}+</h2>
-            <h3>Creative Components</h3>
-            <p>Growing weekly &amp; only getting better</p>
+            <h3>Stunning Components</h3>
+            <p>Animated, interactive & production-ready</p>
           </ParticleCard>
 
           <ParticleCard className="feature-card card4" disableAnimations={isMobile}>
@@ -228,8 +228,8 @@ const FeatureCards = () => {
               <img src="/assets/switch.gif" alt="Switch animation" className="switch-gif" />
             </div>
             <h2>{isMobile ? '4' : <CountUp to={4} />}</h2>
-            <h3>Component Variants</h3>
-            <p>Pick your favourite technologies</p>
+            <h3>Multiple Variants</h3>
+            <p>JS/TS × CSS/Tailwind - Your choice</p>
           </ParticleCard>
         </div>
       </div>

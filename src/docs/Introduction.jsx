@@ -11,16 +11,16 @@ const Introduction = () => {
   return (
     <section className="docs-section">
       <p className="docs-paragraph dim">
-        React Bits is an open-source collection of carefully designed UI components that aim to enhance your React web
-        applications.
+        MuneerUI is an open-source collection of stunning, animated React components crafted by Muneer Ali Subzwari.
+        Every component is meticulously designed with attention to detail and ready to elevate your React web applications.
       </p>
       <p className="docs-paragraph">
         This is not your typical component library, which means you won&apos;t find a set of generic buttons, inputs, or
         other common UI elements here.
       </p>
       <p className="docs-paragraph">
-        Basically, these components are here to help you stand out and make a statement visually by adding a touch of
-        creativity to your projects.
+        These components are here to help you stand out and make a visual statement by adding creativity, animation, 
+        and elegance to your projects.
       </p>
 
       <h3 className="docs-category-title">Mission</h3>
@@ -66,13 +66,13 @@ const Introduction = () => {
 
       <h4 className="docs-category-subtitle">Fully Modular</h4>
 
-            <p className="docs-paragraph">
-        MuneerUI is not your classic NPM library, you install only the components you need by either copying the code
-        manually from the docs, or by{' '}
+      <p className="docs-paragraph">
+        MuneerUI is not your classic NPM library. Install only what you need by copying code manually from the docs, or use the{' '}
         <a href="/docs/installation/shadcn" className="docs-link">
-          using the Shadcn CLI
-        </a>
-        .
+          Shadcn CLI
+        </a>{' '}
+        for instant installation with{' '}
+        <code className="docs-code">npx shadcn@latest add https://muneer-ui.vercel.app/r/ComponentName</code>
       </p>
 
       <h4 className="docs-category-subtitle">Free Choice</h4>
