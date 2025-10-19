@@ -5,7 +5,7 @@
 This guide shows you how to configure your MuneerUI library so users can install components using:
 
 ```bash
-npx shadcn@latest add https://muneerui.com/r/ComponentName-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/ComponentName-JS-CSS
 ```
 
 ## 📋 Pre-Deployment Checklist
@@ -63,8 +63,8 @@ Follow the prompts:
 #### Step 3: Add Custom Domain
 
 1. Go to Vercel Dashboard → Your Project → Settings → Domains
-2. Add your custom domain: `muneerui.com`
-3. Add www subdomain: `www.muneerui.com`
+2. Add your custom domain: `muneer-ui.vercel.app`
+3. Add www subdomain: `www.muneer-ui.vercel.app`
 4. Configure DNS records as instructed by Vercel
 
 #### Step 4: Configure Environment
@@ -110,10 +110,10 @@ Vercel settings (vercel.json):
 
 ```bash
 # Test the URL
-curl https://muneerui.com/r/SplitText-JS-CSS.json
+curl https://muneer-ui.vercel.app/r/SplitText-JS-CSS.json
 
 # Test installation
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ### Option 2: Netlify
@@ -154,7 +154,7 @@ netlify deploy --prod
 #### Step 4: Add Custom Domain
 
 1. Go to Netlify Dashboard → Domain Settings
-2. Add custom domain: `muneerui.com`
+2. Add custom domain: `muneer-ui.vercel.app`
 3. Configure DNS records
 
 ### Option 3: GitHub Pages
@@ -197,7 +197,7 @@ chmod +x deploy.sh
 
 1. Go to Repository → Settings → Pages
 2. Source: Deploy from branch `gh-pages`
-3. Add custom domain: `muneerui.com`
+3. Add custom domain: `muneer-ui.vercel.app`
 
 ### Option 4: Custom Server (VPS/Cloud)
 
@@ -207,7 +207,7 @@ chmod +x deploy.sh
 server {
     listen 80;
     listen [::]:80;
-    server_name muneerui.com www.muneerui.com;
+    server_name muneer-ui.vercel.app www.muneer-ui.vercel.app;
 
     root /var/www/muneerui/dist;
     index index.html;
@@ -227,8 +227,8 @@ server {
     # SSL configuration (use certbot)
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
-    ssl_certificate /etc/letsencrypt/live/muneerui.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/muneerui.com/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/muneer-ui.vercel.app/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/muneer-ui.vercel.app/privkey.pem;
 }
 ```
 
@@ -236,8 +236,8 @@ server {
 
 ```apache
 <VirtualHost *:80>
-    ServerName muneerui.com
-    ServerAlias www.muneerui.com
+    ServerName muneer-ui.vercel.app
+    ServerAlias www.muneer-ui.vercel.app
     DocumentRoot /var/www/muneerui/dist
 
     <Directory /var/www/muneerui/dist>
@@ -297,7 +297,7 @@ All major hosting providers offer free SSL:
 
 ```bash
 # For custom server
-sudo certbot --nginx -d muneerui.com -d www.muneerui.com
+sudo certbot --nginx -d muneer-ui.vercel.app -d www.muneer-ui.vercel.app
 ```
 
 ## 🧪 Testing Your Deployment
@@ -306,10 +306,10 @@ sudo certbot --nginx -d muneerui.com -d www.muneerui.com
 
 ```bash
 # Should return JSON
-curl https://muneerui.com/r/SplitText-JS-CSS.json
+curl https://muneer-ui.vercel.app/r/SplitText-JS-CSS.json
 
 # Check CORS headers
-curl -I https://muneerui.com/r/SplitText-JS-CSS.json
+curl -I https://muneer-ui.vercel.app/r/SplitText-JS-CSS.json
 ```
 
 ### 2. Test CLI Installation
@@ -320,7 +320,7 @@ npx create-react-app test-muneerui
 cd test-muneerui
 
 # Test installation
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ### 3. Verify Component Files
@@ -334,7 +334,7 @@ cat src/components/SplitText.jsx
 ### 4. Test Multiple Components
 
 ```bash
-npx shadcn@latest add https://muneerui.com/r/BlurText-JS-CSS https://muneerui.com/r/CountUp-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-JS-CSS https://muneer-ui.vercel.app/r/CountUp-JS-CSS
 ```
 
 ## 📊 Monitoring
@@ -355,7 +355,7 @@ const components = [
 
 async function testRegistry() {
   for (const component of components) {
-    const url = `https://muneerui.com/r/${component}.json`;
+    const url = `https://muneer-ui.vercel.app/r/${component}.json`;
     try {
       const response = await fetch(url);
       console.log(`${component}: ${response.ok ? '✅' : '❌'} (${response.status})`);
@@ -419,12 +419,12 @@ ls public/r/*.json | head -5
 cat registry.json | grep "ComponentName"
 
 # Use correct casing and variant
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ## 📝 Post-Deployment Checklist
 
-- [ ] Website loads at https://muneerui.com
+- [ ] Website loads at https://muneer-ui.vercel.app
 - [ ] SSL certificate is active (https)
 - [ ] Registry files accessible at /r/
 - [ ] CORS headers present
@@ -439,10 +439,10 @@ Once deployed, users can install components:
 
 ```bash
 # Single component
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 
 # Multiple components
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS https://muneerui.com/r/BlurText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS https://muneer-ui.vercel.app/r/BlurText-JS-CSS
 
 # Using jsrepo
 npx jsrepo add muneerui/SplitText-JS-CSS

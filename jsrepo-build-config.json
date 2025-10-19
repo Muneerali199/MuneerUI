@@ -4,7 +4,7 @@
         "authors": ["Muneer Ali Subzwari"],
         "description": "MuneerUI - The ultimate open source collection of 110+ animated, interactive & fully customizable React components. Built to help developers create exceptional user interfaces effortlessly.",
         "bugs": "https://github.com/Muneerali199/MuneerUI/issues",
-        "homepage": "https://muneerui.com",
+        "homepage": "https://muneer-ui.vercel.app",
         "repository": "https://github.com/Muneerali199/MuneerUI",
         "tags": [
             "react",

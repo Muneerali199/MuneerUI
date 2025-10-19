@@ -11,29 +11,29 @@ MuneerUI components can be installed directly from your domain using either **sh
 Once your site is deployed, users can install components directly:
 
 ```bash
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ### Examples
 
 ```bash
 # JavaScript + CSS version
-npx shadcn@latest add https://muneerui.com/r/BlurText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-JS-CSS
 
 # JavaScript + Tailwind version
-npx shadcn@latest add https://muneerui.com/r/BlurText-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-JS-TW
 
 # TypeScript + CSS version
-npx shadcn@latest add https://muneerui.com/r/BlurText-TS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-TS-CSS
 
 # TypeScript + Tailwind version
-npx shadcn@latest add https://muneerui.com/r/BlurText-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-TS-TW
 ```
 
 ### Install Multiple Components
 
 ```bash
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS https://muneerui.com/r/FadeContent-JS-CSS https://muneerui.com/r/Aurora-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS https://muneer-ui.vercel.app/r/FadeContent-JS-CSS https://muneer-ui.vercel.app/r/Aurora-JS-CSS
 ```
 
 ## 📦 Using jsrepo CLI
@@ -67,7 +67,7 @@ Before deploying, ensure:
    npm run build
    ```
 
-2. **Deploy to your domain (muneerui.com)**
+2. **Deploy to your domain (muneer-ui.vercel.app)**
    - The `/r/` routes need to be configured to serve the registry JSON files
    - The `/public/r/` directory contains all component definitions
 
@@ -102,10 +102,10 @@ public/
 
 2. **Add custom domain:**
    - Go to Project Settings → Domains
-   - Add `muneerui.com` and `www.muneerui.com`
+   - Add `muneer-ui.vercel.app` and `www.muneer-ui.vercel.app`
 
 3. **Verify registry access:**
-   - Test: `https://muneerui.com/r/SplitText-JS-CSS.json`
+   - Test: `https://muneer-ui.vercel.app/r/SplitText-JS-CSS.json`
    - Should return the component JSON
 
 ### Netlify
@@ -155,10 +155,10 @@ Where:
 
 Browse all 110+ components at:
 ```
-https://muneerui.com/text-animations/split-text
-https://muneerui.com/animations/fade-content
-https://muneerui.com/components/carousel
-https://muneerui.com/backgrounds/aurora
+https://muneer-ui.vercel.app/text-animations/split-text
+https://muneer-ui.vercel.app/animations/fade-content
+https://muneer-ui.vercel.app/components/carousel
+https://muneer-ui.vercel.app/backgrounds/aurora
 ```
 
 Each component page shows:
@@ -173,7 +173,7 @@ Each component page displays ready-to-copy commands:
 
 ```bash
 # shadcn CLI
-pnpm dlx shadcn@latest add https://muneerui.com/r/ComponentName-JS-CSS
+pnpm dlx shadcn@latest add https://muneer-ui.vercel.app/r/ComponentName-JS-CSS
 
 # jsrepo CLI
 pnpm dlx jsrepo add muneerui/ComponentName-JS-CSS
@@ -183,38 +183,38 @@ pnpm dlx jsrepo add muneerui/ComponentName-JS-CSS
 
 ### Text Animations (20+ components)
 ```bash
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/BlurText-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/CountUp-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/DecryptedText-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/CircularText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CountUp-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DecryptedText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CircularText-JS-CSS
 ```
 
 ### Animations (25+ components)
 ```bash
-npx shadcn@latest add https://muneerui.com/r/FadeContent-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/AnimatedContent-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/BlobCursor-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/ClickSpark-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Crosshair-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/FadeContent-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/AnimatedContent-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlobCursor-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/ClickSpark-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Crosshair-JS-CSS
 ```
 
 ### UI Components (35+ components)
 ```bash
-npx shadcn@latest add https://muneerui.com/r/Carousel-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/BubbleMenu-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Dock-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/CardNav-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/ElasticSlider-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Carousel-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BubbleMenu-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Dock-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CardNav-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/ElasticSlider-JS-CSS
 ```
 
 ### Backgrounds (30+ components)
 ```bash
-npx shadcn@latest add https://muneerui.com/r/Aurora-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Beams-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/DotGrid-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Particles-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Ripple-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Aurora-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Beams-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DotGrid-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Particles-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Ripple-JS-CSS
 ```
 
 ## 🛠️ Troubleshooting
@@ -235,7 +235,7 @@ If users get a 404 error:
 
 3. **Test the URL directly:**
    ```bash
-   curl https://muneerui.com/r/ComponentName-JS-CSS.json
+   curl https://muneer-ui.vercel.app/r/ComponentName-JS-CSS.json
    ```
 
 ### Dependencies Not Installing
@@ -312,41 +312,41 @@ function App() {
 
 ```bash
 # Install hero components
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/FadeContent-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Aurora-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/FadeContent-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Aurora-JS-CSS
 
 # Install interactive elements
-npx shadcn@latest add https://muneerui.com/r/AnimatedList-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/BubbleMenu-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/AnimatedList-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BubbleMenu-JS-CSS
 
 # Install background effects
-npx shadcn@latest add https://muneerui.com/r/Beams-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/DotGrid-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Beams-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DotGrid-JS-CSS
 ```
 
 ### Building a Portfolio
 
 ```bash
 # Gallery components
-npx shadcn@latest add https://muneerui.com/r/Carousel-JS-TW
-npx shadcn@latest add https://muneerui.com/r/CircularGallery-JS-TW
-npx shadcn@latest add https://muneerui.com/r/DomeGallery-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Carousel-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CircularGallery-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DomeGallery-JS-TW
 
 # Text animations
-npx shadcn@latest add https://muneerui.com/r/DecryptedText-JS-TW
-npx shadcn@latest add https://muneerui.com/r/CircularText-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DecryptedText-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CircularText-JS-TW
 
 # Interactive elements
-npx shadcn@latest add https://muneerui.com/r/BlobCursor-JS-TW
-npx shadcn@latest add https://muneerui.com/r/Crosshair-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlobCursor-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Crosshair-JS-TW
 ```
 
 ## 📞 Support
 
 Need help?
 
-- 📚 Documentation: https://muneerui.com/text-animations/split-text
+- 📚 Documentation: https://muneer-ui.vercel.app/text-animations/split-text
 - 💬 GitHub Issues: https://github.com/Muneerali199/MuneerUI/issues
 - 🐦 Twitter: https://twitter.com/muneerali
 

@@ -5,7 +5,7 @@
 You now have a **fully customized UI library** with your own installation system! Users can install components using:
 
 ```bash
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ## 🎨 New Professional Logo
@@ -34,7 +34,7 @@ npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
 ```json
 {
   "name": "muneerui",
-  "homepage": "https://muneerui.com"
+  "homepage": "https://muneer-ui.vercel.app"
 }
 ```
 
@@ -44,7 +44,7 @@ npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
   "meta": {
     "authors": ["Muneer Ali Subzwari"],
     "description": "MuneerUI - The ultimate open source collection...",
-    "homepage": "https://muneerui.com",
+    "homepage": "https://muneer-ui.vercel.app",
     "repository": "https://github.com/Muneerali199/MuneerUI"
   }
 }
@@ -63,10 +63,10 @@ npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
 ### Method 1: shadcn CLI (Recommended)
 ```bash
 # Single component
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 
 # Multiple components
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS https://muneerui.com/r/BlurText-JS-CSS https://muneerui.com/r/CountUp-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS https://muneer-ui.vercel.app/r/BlurText-JS-CSS https://muneer-ui.vercel.app/r/CountUp-JS-CSS
 ```
 
 ### Method 2: jsrepo CLI
@@ -102,8 +102,8 @@ vercel --prod
 ```
 
 Then add custom domain in Vercel dashboard:
-- Domain: `muneerui.com`
-- WWW: `www.muneerui.com`
+- Domain: `muneer-ui.vercel.app`
+- WWW: `www.muneer-ui.vercel.app`
 
 #### Option B: Netlify
 ```bash
@@ -141,12 +141,12 @@ CNAME www     [your-site].netlify.app
 
 ```bash
 # Test registry access
-curl https://muneerui.com/r/SplitText-JS-CSS.json
+curl https://muneer-ui.vercel.app/r/SplitText-JS-CSS.json
 
 # Test component installation
 npx create-react-app test-project
 cd test-project
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ## 📁 Files Created/Updated
@@ -171,7 +171,7 @@ Your users will use this format:
 npx shadcn@latest add https://[YOUR-DOMAIN]/r/[COMPONENT-NAME]-[VARIANT]
 
 Where:
-- YOUR-DOMAIN: muneerui.com (after deployment)
+- YOUR-DOMAIN: muneer-ui.vercel.app (after deployment)
 - COMPONENT-NAME: SplitText, BlurText, Aurora, etc.
 - VARIANT: JS-CSS, JS-TW, TS-CSS, or TS-TW
 ```
@@ -180,38 +180,38 @@ Where:
 
 ```bash
 # Text Animations
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/BlurText-TS-TW
-npx shadcn@latest add https://muneerui.com/r/CountUp-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/DecryptedText-TS-TW
-npx shadcn@latest add https://muneerui.com/r/CircularText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CountUp-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DecryptedText-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CircularText-JS-CSS
 
 # Animations
-npx shadcn@latest add https://muneerui.com/r/FadeContent-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/AnimatedContent-TS-TW
-npx shadcn@latest add https://muneerui.com/r/BlobCursor-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/ClickSpark-TS-CSS
-npx shadcn@latest add https://muneerui.com/r/Crosshair-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/FadeContent-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/AnimatedContent-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlobCursor-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/ClickSpark-TS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Crosshair-JS-TW
 
 # UI Components
-npx shadcn@latest add https://muneerui.com/r/Carousel-TS-TW
-npx shadcn@latest add https://muneerui.com/r/BubbleMenu-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Dock-TS-CSS
-npx shadcn@latest add https://muneerui.com/r/CardNav-JS-TW
-npx shadcn@latest add https://muneerui.com/r/ElasticSlider-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Carousel-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BubbleMenu-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Dock-TS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CardNav-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/ElasticSlider-TS-TW
 
 # Backgrounds
-npx shadcn@latest add https://muneerui.com/r/Aurora-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Beams-TS-TW
-npx shadcn@latest add https://muneerui.com/r/DotGrid-JS-TW
-npx shadcn@latest add https://muneerui.com/r/Particles-TS-CSS
-npx shadcn@latest add https://muneerui.com/r/Ripple-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Aurora-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Beams-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DotGrid-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Particles-TS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Ripple-JS-CSS
 ```
 
 ## 🌟 What Makes This Unique
 
 ### Your Brand, Your Domain
-- ✅ Custom domain (muneerui.com)
+- ✅ Custom domain (muneer-ui.vercel.app)
 - ✅ Your name everywhere
 - ✅ Professional logo
 - ✅ Branded installation commands
@@ -304,13 +304,13 @@ npm run deploy
 ```
 
 ### 5. Configure Domain
-- Purchase domain: muneerui.com
+- Purchase domain: muneer-ui.vercel.app
 - Point DNS to your hosting
 - Wait for DNS propagation (up to 48hrs)
 
 ### 6. Test Production Installation
 ```bash
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ## 🎉 Marketing Your Library
@@ -327,14 +327,14 @@ npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
    🎉 Introducing MuneerUI - 110+ animated React components!
 
    Install any component instantly:
-   npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+   npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 
    ⚡ Lightning fast
    🎨 Fully customizable
    💻 4 code variants
    🚀 Easy installation
 
-   Check it out: https://muneerui.com
+   Check it out: https://muneer-ui.vercel.app
    ```
 
 3. **Reddit**
@@ -360,7 +360,7 @@ npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
 ## 📞 Support Resources
 
 Users can find help at:
-- 📚 **Docs**: https://muneerui.com
+- 📚 **Docs**: https://muneer-ui.vercel.app
 - 💬 **Issues**: https://github.com/Muneerali199/MuneerUI/issues
 - 🐦 **Twitter**: https://twitter.com/muneerali
 - 📧 **Email**: your-email@example.com

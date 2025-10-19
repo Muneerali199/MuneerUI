@@ -47,14 +47,14 @@ MuneerUI components can be installed directly using **shadcn** or **jsrepo** CLI
 
 ### 🚀 Using shadcn (Recommended)
 
-Install components directly from muneerui.com once deployed:
+Install components directly from muneer-ui.vercel.app once deployed:
 
 ```bash
 # Install a single component
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 
 # Install multiple components at once
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS https://muneerui.com/r/BlurText-JS-CSS https://muneerui.com/r/Aurora-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS https://muneer-ui.vercel.app/r/BlurText-JS-CSS https://muneer-ui.vercel.app/r/Aurora-JS-CSS
 ```
 
 ### 📦 Using jsrepo
@@ -77,22 +77,22 @@ Each component comes in 4 variants - choose what fits your project:
 
 ```bash
 # Text Animations
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/BlurText-TS-TW
-npx shadcn@latest add https://muneerui.com/r/CountUp-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BlurText-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/CountUp-JS-CSS
 
 # UI Components
-npx shadcn@latest add https://muneerui.com/r/Carousel-TS-TW
-npx shadcn@latest add https://muneerui.com/r/BubbleMenu-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Dock-TS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Carousel-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/BubbleMenu-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Dock-TS-CSS
 
 # Backgrounds
-npx shadcn@latest add https://muneerui.com/r/Aurora-JS-CSS
-npx shadcn@latest add https://muneerui.com/r/Beams-TS-TW
-npx shadcn@latest add https://muneerui.com/r/DotGrid-JS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Aurora-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/Beams-TS-TW
+npx shadcn@latest add https://muneer-ui.vercel.app/r/DotGrid-JS-TW
 ```
 
-> **Note**: Replace `muneerui.com` with your actual deployed domain. See [DEPLOYMENT.md](DEPLOYMENT.md) for setup instructions.
+> **Note**: Replace `muneer-ui.vercel.app` with your actual deployed domain. See [DEPLOYMENT.md](DEPLOYMENT.md) for setup instructions.
 
 Each component page on the website provides ready-to-use CLI commands for quick setup.
 

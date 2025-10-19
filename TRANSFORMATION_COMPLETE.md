@@ -29,7 +29,7 @@
 - ✅ Library Name: **MuneerUI**
 - ✅ Creator: **Muneer Ali Subzwari**
 - ✅ Repository: **Muneerali199/MuneerUI**
-- ✅ Domain: **muneerui.com**
+- ✅ Domain: **muneer-ui.vercel.app**
 - ✅ Color Scheme: Purple-Violet Gradient (#667eea → #764ba2)
 - ✅ Professional Animated Logo
 
@@ -50,7 +50,7 @@
 
 #### Method 1: shadcn CLI
 ```bash
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 #### Method 2: jsrepo CLI
@@ -165,7 +165,7 @@ PlasmaWave, Spotlight, Vortex, etc.
 │  💻 Languages:            JS + TS       │
 │  🎨 Styles:               CSS + TW      │
 │  ⚡ Installation:         2 Methods     │
-│  🌐 Domain:               muneerui.com  │
+│  🌐 Domain:               muneer-ui.vercel.app  │
 │  📊 Git Commits:          Multiple      │
 │                                         │
 └─────────────────────────────────────────┘
@@ -211,7 +211,7 @@ npm run build
 ```
 
 ### 4️⃣ **Configure Domain**
-Point `muneerui.com` to your hosting:
+Point `muneer-ui.vercel.app` to your hosting:
 
 **For Vercel:**
 ```
@@ -228,10 +228,10 @@ CNAME www     [your-site].netlify.app
 ### 5️⃣ **Test Installation**
 ```bash
 # Test registry access
-curl https://muneerui.com/r/SplitText-JS-CSS.json
+curl https://muneer-ui.vercel.app/r/SplitText-JS-CSS.json
 
 # Test component installation
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 ```
 
 ---
@@ -266,14 +266,14 @@ npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
 🎉 Introducing MuneerUI - 110+ animated React components!
 
 Install any component instantly:
-npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
 
 ⚡ Lightning fast
 🎨 Fully customizable  
 💻 4 code variants
 🚀 Easy installation
 
-Check it out: https://muneerui.com
+Check it out: https://muneer-ui.vercel.app
 #React #WebDev #OpenSource
 ```
 
@@ -286,7 +286,7 @@ interactive components for React. Each component comes in 4
 variants (JS/TS + CSS/Tailwind).
 
 Installation is super easy:
-npx shadcn@latest add https://muneerui.com/r/ComponentName-JS-CSS
+npx shadcn@latest add https://muneer-ui.vercel.app/r/ComponentName-JS-CSS
 
 Categories:
 • Text Animations (20+)
@@ -296,7 +296,7 @@ Categories:
 
 All components are free, open source, and fully customizable.
 
-Check it out: https://muneerui.com
+Check it out: https://muneer-ui.vercel.app
 GitHub: https://github.com/Muneerali199/MuneerUI
 ```
 
@@ -343,7 +343,7 @@ GitHub: https://github.com/Muneerali199/MuneerUI
 ## 💡 Next Steps
 
 1. [ ] **Deploy** to Vercel/Netlify
-2. [ ] **Configure** muneerui.com domain
+2. [ ] **Configure** muneer-ui.vercel.app domain
 3. [ ] **Test** CLI installation
 4. [ ] **Push** to GitHub
 5. [ ] **Announce** on social media
@@ -390,7 +390,7 @@ For help:
 
 ## 🔗 Quick Links
 
-- 🌐 Website: https://muneerui.com (pending deployment)
+- 🌐 Website: https://muneer-ui.vercel.app (pending deployment)
 - 📦 GitHub: https://github.com/Muneerali199/MuneerUI
 - 📚 Docs: All markdown files in root directory
 - 🎨 Components: 110+ in src/components/

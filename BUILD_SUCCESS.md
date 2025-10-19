@@ -180,13 +180,13 @@ The build shows warnings about large chunks:
    ```
 
 2. **Configure Domain** (After deployment)
-   - Point `muneerui.com` to your hosting provider
+   - Point `muneer-ui.vercel.app` to your hosting provider
    - Set up SSL certificate
    - Wait for DNS propagation
 
 3. **Test Installation** (After domain setup)
    ```bash
-   npx shadcn@latest add https://muneerui.com/r/SplitText-JS-CSS
+   npx shadcn@latest add https://muneer-ui.vercel.app/r/SplitText-JS-CSS
    ```
 
 4. **Announce Your Library** 🎉

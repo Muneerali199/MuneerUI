@@ -28,7 +28,7 @@ export const generateCliCommands = (language, style, category, subcategory, depe
     const shadcnVariant = variantForShadcn(language, style);
 
     const componentName = slugToComponentName(subcategory);
-    const baseUrl = 'https://muneerui.com';
+    const baseUrl = 'https://muneer-ui.vercel.app';
 
     const jsrepoCategory = category
         .split('-')
@@ -53,8 +53,7 @@ export const generateCliCommands = (language, style, category, subcategory, depe
     );
 
     const depsString = typeof dependencies === 'string' ? dependencies.trim() : '';
-    const manual = depsString ?
-        {
+    const manual = depsString ? {
             pnpm: `pnpm add ${depsString}`,
             npm: `npm install ${depsString}`,
             yarn: `yarn add ${depsString}`,

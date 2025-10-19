@@ -20,7 +20,7 @@ All instances of "React Bits" and related branding have been updated to "MuneerU
 ```json
 {
   "name": "muneerui",
-  "homepage": "https://muneerui.com"
+  "homepage": "https://muneer-ui.vercel.app"
 }
 ```
 
@@ -28,7 +28,7 @@ All instances of "React Bits" and related branding have been updated to "MuneerU
 ```json
 {
   "authors": ["Muneer Ali Subzwari"],
-  "homepage": "https://muneerui.com",
+  "homepage": "https://muneer-ui.vercel.app",
   "repository": "https://github.com/Muneerali199/MuneerUI"
 }
 ```
@@ -48,7 +48,7 @@ fetch('https://api.github.com/repos/Muneerali199/MuneerUI')
 ```javascript
 // OLD: const baseUrl = 'https://reactbits.dev';
 // NEW:
-const baseUrl = 'https://muneerui.com';
+const baseUrl = 'https://muneer-ui.vercel.app';
 ```
 
 ---
@@ -86,7 +86,7 @@ Updated all references:
 Updated MCP Server references:
 - "The MuneerUI MCP Server enables..."
 - Configuration changed to `muneerui-mcp`
-- Endpoint: `https://muneerui.com/mcp/sse`
+- Endpoint: `https://muneer-ui.vercel.app/mcp/sse`
 - "Your AI assistant now has intelligent access to the entire MuneerUI component library"
 
 ---
@@ -194,7 +194,7 @@ logoUrl = '/src/assets/logos/reactbits-gh-white.svg'
 ### ✅ Complete Brand Consistency
 - All user-facing text updated to "MuneerUI"
 - All GitHub links point to Muneerali199/MuneerUI
-- All API endpoints updated to muneerui.com
+- All API endpoints updated to muneer-ui.vercel.app
 - All demo content uses MuneerUI branding
 
 ### ✅ SEO & Metadata
@@ -208,7 +208,7 @@ logoUrl = '/src/assets/logos/reactbits-gh-white.svg'
 - All CTAs point to your repository
 
 ### ✅ Technical Integration
-- CLI commands use muneerui.com
+- CLI commands use muneer-ui.vercel.app
 - Registry points to your domain
 - GitHub API calls use your repo
 - MCP server configured for MuneerUI
@@ -240,7 +240,7 @@ Your frontend is now **100% branded as MuneerUI**. Every visible element, every 
    ```
 
 4. **Configure Domain**
-   - Point muneerui.com to your hosting
+   - Point muneer-ui.vercel.app to your hosting
    - Set up SSL certificate
    - Test CLI installation
 
@@ -255,7 +255,7 @@ Your frontend is now **100% branded as MuneerUI**. Every visible element, every 
 - [ ] GitHub links go to Muneerali199/MuneerUI
 - [ ] Page titles show "MuneerUI - ..."
 - [ ] Documentation references MuneerUI
-- [ ] CLI examples use muneerui.com
+- [ ] CLI examples use muneer-ui.vercel.app
 
 ---
 

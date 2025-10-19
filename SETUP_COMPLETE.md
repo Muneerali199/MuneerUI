@@ -131,7 +131,7 @@ Text: #ffffff (White)
    - Update favicon and og-image
 
 3. **Domain & Hosting**
-   - Register a domain (e.g., muneerui.com)
+   - Register a domain (e.g., muneer-ui.vercel.app)
    - Deploy to Vercel/Netlify
    - Update canonical URLs
 
