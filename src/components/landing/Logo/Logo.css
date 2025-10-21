@@ -1,0 +1,128 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0.5rem;
+    border-radius: 14px;
+    will-change: transform;
+    text-decoration: none;
+}
+
+.logo-container:hover {
+    transform: translateY(-3px);
+}
+
+.logo-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    transition: all 0.4s ease;
+}
+
+.logo-bg {
+    transition: all 0.4s ease;
+}
+
+.logo-container:hover .logo-bg {
+    fill: rgba(255, 255, 255, 0.1);
+}
+
+.logo-path {
+    filter: drop-shadow(0 0 10px rgba(224, 224, 224, 0.5));
+    transition: all 0.4s ease;
+}
+
+.logo-container:hover .logo-path {
+    filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.8)) drop-shadow(0 0 30px rgba(224, 224, 224, 0.4));
+    transform: scale(1.05);
+}
+
+.logo-accent {
+    opacity: 0.6;
+    transition: all 0.4s ease;
+}
+
+.logo-container:hover .logo-accent {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.6));
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.logo-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #FFFFFF 0%, #E0E0E0 50%, #FFD700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.5px;
+    transition: all 0.3s ease;
+}
+
+.logo-container:hover .logo-title {
+    background: linear-gradient(135deg, #FFFFFF 0%, #FFD700 50%, #E0E0E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.logo-subtitle {
+    font-size: 0.68rem;
+    color: rgba(224, 224, 224, 0.7);
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.logo-container:hover .logo-subtitle {
+    color: rgba(255, 215, 0, 0.9);
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        gap: 0.6rem;
+        padding: 0.4rem;
+    }
+    .logo-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .logo-icon svg {
+        width: 32px;
+        height: 32px;
+    }
+    .logo-title {
+        font-size: 1.1rem;
+    }
+    .logo-subtitle {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-icon {
+        width: 28px;
+        height: 28px;
+    }
+    .logo-icon svg {
+        width: 28px;
+        height: 28px;
+    }
+    .logo-title {
+        font-size: 1rem;
+    }
+    .logo-subtitle {
+        font-size: 0.55rem;
+    }
+}
