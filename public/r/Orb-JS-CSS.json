@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Backgrounds/Orb/Orb.css",
-      "content": ".orb-container {\n  position: relative;\n  z-index: 0;\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".orb-container {\r\n  position: relative;\r\n  z-index: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
