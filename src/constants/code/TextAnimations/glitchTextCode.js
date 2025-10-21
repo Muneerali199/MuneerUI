@@ -13,7 +13,7 @@ export const glitchText = {
   enableOnHover={true}
   className='custom-class'
 >
-  React Bits
+  MuneerUI
 </GlitchText>`,
   code,
   css,
