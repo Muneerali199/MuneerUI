@@ -18,7 +18,7 @@
     },
     {
       "path": "public/default/src/content/Backgrounds/Dither/Dither.css",
-      "content": ".dither-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n",
+      "content": ".dither-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
