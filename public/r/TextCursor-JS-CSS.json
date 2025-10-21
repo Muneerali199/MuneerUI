@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/TextAnimations/TextCursor/TextCursor.css",
-      "content": ".text-cursor-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n\n.text-cursor-inner {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  pointer-events: none;\n}\n\n.text-cursor-item {\n  position: absolute;\n  user-select: none;\n  white-space: nowrap;\n  font-size: 1.875rem;\n}\n",
+      "content": ".text-cursor-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n}\r\n\r\n.text-cursor-inner {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  pointer-events: none;\r\n}\r\n\r\n.text-cursor-item {\r\n  position: absolute;\r\n  user-select: none;\r\n  white-space: nowrap;\r\n  font-size: 1.875rem;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
