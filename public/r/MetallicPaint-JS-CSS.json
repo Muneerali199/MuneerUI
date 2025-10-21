@@ -12,7 +12,7 @@
     },
     {
       "path": "public/default/src/content/Animations/MetallicPaint/MetallicPaint.css",
-      "content": ".paint-container {\n  display: block;\n  height: 100%;\n  width: 100%;\n  object-fit: contain;\n}\n",
+      "content": ".paint-container {\r\n  display: block;\r\n  height: 100%;\r\n  width: 100%;\r\n  object-fit: contain;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
