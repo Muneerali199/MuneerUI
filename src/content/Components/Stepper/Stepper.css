@@ -91,7 +91,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 9999px;
-  background-color: #5227ff;
+  background-color: #E0E0E0;
   color: #fff;
   font-weight: 500;
   letter-spacing: -0.025em;
@@ -100,11 +100,11 @@
 }
 
 .next-button:hover {
-  background-color: #5227ff;
+  background-color: #E0E0E0;
 }
 
 .next-button:active {
-  background-color: #5227ff;
+  background-color: #E0E0E0;
 }
 
 .step-indicator {
