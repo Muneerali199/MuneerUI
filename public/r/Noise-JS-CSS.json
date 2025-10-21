@@ -12,7 +12,7 @@
     },
     {
       "path": "public/default/src/content/Animations/Noise/Noise.css",
-      "content": ".noise-overlay {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100vw;\n  height: 100vh;\n  pointer-events: none;\n}\n",
+      "content": ".noise-overlay {\r\n  position: absolute;\r\n  left: 0;\r\n  top: 0;\r\n  width: 100vw;\r\n  height: 100vh;\r\n  pointer-events: none;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
