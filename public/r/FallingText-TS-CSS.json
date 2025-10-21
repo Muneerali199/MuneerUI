@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/TextAnimations/FallingText/FallingText.css",
-      "content": ".falling-text-container {\n  position: relative;\n  z-index: 1;\n  width: 100%;\n  height: 100%;\n  cursor: pointer;\n  text-align: center;\n  padding-top: 2em;\n}\n\n.falling-text-target {\n  display: inline-block;\n}\n\n.word {\n  display: inline-block;\n  margin: 0 2px;\n  user-select: none;\n}\n\n.highlighted {\n  color: cyan;\n  font-weight: bold;\n}\n\n.falling-text-canvas {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 0;\n}\n",
+      "content": ".falling-text-container {\r\n  position: relative;\r\n  z-index: 1;\r\n  width: 100%;\r\n  height: 100%;\r\n  cursor: pointer;\r\n  text-align: center;\r\n  padding-top: 2em;\r\n}\r\n\r\n.falling-text-target {\r\n  display: inline-block;\r\n}\r\n\r\n.word {\r\n  display: inline-block;\r\n  margin: 0 2px;\r\n  user-select: none;\r\n}\r\n\r\n.highlighted {\r\n  color: cyan;\r\n  font-weight: bold;\r\n}\r\n\r\n.falling-text-canvas {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: 0;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
