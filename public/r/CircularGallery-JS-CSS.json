@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Components/CircularGallery/CircularGallery.css",
-      "content": ".circular-gallery {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  cursor: grab;\n}\n\n.circular-gallery:active {\n  cursor: grabbing;\n}\n",
+      "content": ".circular-gallery {\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n  cursor: grab;\r\n}\r\n\r\n.circular-gallery:active {\r\n  cursor: grabbing;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
