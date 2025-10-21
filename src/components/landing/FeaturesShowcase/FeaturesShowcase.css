@@ -1,0 +1,195 @@
+.features-showcase-section {
+    padding: 8rem 2rem;
+    background: linear-gradient(180deg, #0A0A0A 0%, #334155 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.features-showcase-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.2), transparent);
+}
+
+.features-showcase-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.section-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #FFFFFF 0%, #E0E0E0 50%, #C0C0C0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 30px rgba(255, 215, 0, 0.2));
+}
+
+.section-subtitle {
+    font-size: 1.35rem;
+    color: rgba(226, 232, 240, 0.8);
+    font-weight: 400;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.feature-showcase-card {
+    --feature-color: #E0E0E0;
+    position: relative;
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    will-change: transform;
+}
+
+.feature-showcase-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient( circle at 50% 50%, var(--feature-color), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    filter: blur(40px);
+}
+
+.feature-showcase-card:hover::before,
+.feature-showcase-card.active::before {
+    opacity: 0.15;
+}
+
+.feature-showcase-card:hover,
+.feature-showcase-card.active {
+    transform: translateY(-10px);
+    border-color: var(--feature-color);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3), 0 0 40px var(--feature-color);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.feature-showcase-icon {
+    font-size: 3rem;
+    color: var(--feature-color);
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 20px var(--feature-color));
+    transition: all 0.4s ease;
+}
+
+.feature-showcase-card:hover .feature-showcase-icon,
+.feature-showcase-card.active .feature-showcase-icon {
+    transform: scale(1.1) rotate(5deg);
+    filter: drop-shadow(0 0 30px var(--feature-color));
+}
+
+.feature-showcase-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.feature-showcase-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.feature-showcase-glow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--feature-color), transparent);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    box-shadow: 0 0 20px var(--feature-color);
+}
+
+.feature-showcase-card:hover .feature-showcase-glow,
+.feature-showcase-card.active .feature-showcase-glow {
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .features-showcase-section {
+        padding: 4rem 1.5rem;
+    }
+    .section-header {
+        margin-bottom: 3rem;
+    }
+    .section-title {
+        font-size: 2.25rem;
+    }
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+    .feature-showcase-card {
+        padding: 2rem 1.75rem;
+    }
+    .feature-showcase-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+    .feature-showcase-title {
+        font-size: 1.3rem;
+        margin-bottom: 0.75rem;
+    }
+    .feature-showcase-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 480px) {
+    .features-showcase-section {
+        padding: 3rem 1rem;
+    }
+    .section-title {
+        font-size: 1.85rem;
+    }
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+    .feature-showcase-card {
+        padding: 1.75rem 1.5rem;
+    }
+    .feature-showcase-icon {
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+    }
+    .feature-showcase-title {
+        font-size: 1.15rem;
+    }
+    .feature-showcase-description {
+        font-size: 0.9rem;
+    }
+}
