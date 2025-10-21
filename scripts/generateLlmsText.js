@@ -79,7 +79,7 @@ function buildComponentSection(category, comps) {
 }
 
 const INTRO_LINES = [
-  'React Bits is an open source collection of memorable UI elements - Components, Animations, Backgrounds, and Text Animations - provided in four implementation variants: JavaScript + CSS, JavaScript + Tailwind, TypeScript + CSS, and TypeScript + Tailwind.',
+  'MuneerUi is an open source collection of memorable UI elements - Components, Animations, Backgrounds, and Text Animations - provided in four implementation variants: JavaScript + CSS, JavaScript + Tailwind, TypeScript + CSS, and TypeScript + Tailwind.',
   'Components are copy-friendly and installable via CLI (jsrepo or shadcn).'
 ];
 
@@ -160,7 +160,7 @@ const MCP_LINKS = [
   {
     label: 'MCP Setup',
     url: 'https://www.reactbits.dev/get-started/mcp',
-    note: 'How AI agents can browse/search React Bits.'
+    note: 'How AI agents can browse/search MuneerUi.'
   },
   { label: 'Model Context Protocol', url: 'https://modelcontextprotocol.io/', note: 'Protocol reference.' }
 ];
@@ -180,7 +180,7 @@ function section(title, lines) {
 
 function buildHeader() {
   const intro = [
-    '# React Bits',
+    '# MuneerUi',
     '',
     `> ${INTRO_LINES[0]} ${INTRO_LINES[1]}`,
     '',
