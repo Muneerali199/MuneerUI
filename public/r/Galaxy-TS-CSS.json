@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/Galaxy/Galaxy.css",
-      "content": ".galaxy-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n",
+      "content": ".galaxy-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
