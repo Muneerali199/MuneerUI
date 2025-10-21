@@ -12,7 +12,7 @@
     },
     {
       "path": "public/default/src/content/Animations/MagnetLines/MagnetLines.css",
-      "content": ".magnetLines-container {\n  display: grid;\n  grid-template-columns: repeat(var(--columns), 1fr);\n  grid-template-rows: repeat(var(--rows), 1fr);\n\n  justify-items: center;\n  align-items: center;\n\n  width: 80vmin;\n  height: 80vmin;\n}\n\n.magnetLines-container span {\n  display: block;\n  transform-origin: center;\n  will-change: transform;\n  transform: rotate(var(--rotate));\n}\n",
+      "content": ".magnetLines-container {\r\n  display: grid;\r\n  grid-template-columns: repeat(var(--columns), 1fr);\r\n  grid-template-rows: repeat(var(--rows), 1fr);\r\n\r\n  justify-items: center;\r\n  align-items: center;\r\n\r\n  width: 80vmin;\r\n  height: 80vmin;\r\n}\r\n\r\n.magnetLines-container span {\r\n  display: block;\r\n  transform-origin: center;\r\n  will-change: transform;\r\n  transform: rotate(var(--rotate));\r\n}\r\n",
       "type": "registry:item"
     }
   ]
