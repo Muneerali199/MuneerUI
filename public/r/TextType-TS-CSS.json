@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/TextAnimations/TextType/TextType.css",
-      "content": ".text-type {\n  display: inline-block;\n  white-space: pre-wrap;\n}\n\n.text-type__cursor {\n  margin-left: 0.25rem;\n  display: inline-block;\n  opacity: 1;\n}\n\n.text-type__cursor--hidden {\n  display: none;\n}\n",
+      "content": ".text-type {\r\n  display: inline-block;\r\n  white-space: pre-wrap;\r\n}\r\n\r\n.text-type__cursor {\r\n  margin-left: 0.25rem;\r\n  display: inline-block;\r\n  opacity: 1;\r\n}\r\n\r\n.text-type__cursor--hidden {\r\n  display: none;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
