@@ -19,7 +19,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Components/Lanyard/Lanyard.css",
-      "content": ".lanyard-wrapper {\n  position: relative;\n  z-index: 0;\n  width: 100%;\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform: scale(1);\n  transform-origin: center;\n}\n",
+      "content": ".lanyard-wrapper {\r\n  position: relative;\r\n  z-index: 0;\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  transform: scale(1);\r\n  transform-origin: center;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
