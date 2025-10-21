@@ -5,6 +5,11 @@ const getStarted = {
 };
 
 const animations = {
+  'morphing-card': () => import('../demo/Animations/MorphingCardDemo'),
+  'parallax-hero': () => import('../demo/Animations/ParallaxHeroDemo'),
+  'holographic-card': () => import('../demo/Animations/HolographicCardDemo'),
+  'glass-card': () => import('../demo/Animations/GlassCardDemo'),
+  'magnetic-button': () => import('../demo/Animations/MagneticButtonDemo'),
   'gradual-blur': () => import('../demo/Animations/GradualBlurDemo'),
   'blob-cursor': () => import('../demo/Animations/BlobCursorDemo'),
   'animated-content': () => import('../demo/Animations/AnimatedContentDemo'),
@@ -60,6 +65,9 @@ const textAnimations = {
 };
 
 const components = {
+  'pricing-card': () => import('../demo/Components/PricingCardDemo'),
+  'payment-form': () => import('../demo/Components/PaymentFormDemo'),
+  'checkout-flow': () => import('../demo/Components/CheckoutFlowDemo'),
   'stack': () => import('../demo/Components/StackDemo'),
   'dock': () => import('../demo/Components/DockDemo'),
   'rolling-gallery': () => import('../demo/Components/RollingGalleryDemo'),
@@ -99,6 +107,15 @@ const components = {
 };
 
 const backgrounds = {
+  'aurora-waves': () => import('../demo/Backgrounds/AuroraWavesDemo'),
+  'neural-network': () => import('../demo/Backgrounds/NeuralNetworkDemo'),
+  'particle-field': () => import('../demo/Backgrounds/ParticleFieldDemo'),
+  'glowing-grid': () => import('../demo/Backgrounds/GlowingGridDemo'),
+  'matrix-rain': () => import('../demo/Backgrounds/MatrixRainDemo'),
+  'floating-bubbles': () => import('../demo/Backgrounds/FloatingBubblesDemo'),
+  'digital-waves': () => import('../demo/Backgrounds/DigitalWavesDemo'),
+  'star-field': () => import('../demo/Backgrounds/StarFieldDemo'),
+  'cosmic-dust': () => import('../demo/Backgrounds/CosmicDustDemo'),
   'silk': () => import('../demo/Backgrounds/SilkDemo'),
   'aurora': () => import('../demo/Backgrounds/AuroraDemo'),
   'squares': () => import('../demo/Backgrounds/SquaresDemo'),
