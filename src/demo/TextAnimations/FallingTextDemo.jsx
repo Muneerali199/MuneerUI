@@ -105,8 +105,8 @@ const FallingTextDemo = () => {
         >
           <FallingText
             key={key}
-            text={`React Bits is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
-            highlightWords={['React', 'Bits', 'animated', 'components', 'simplify']}
+            text={`MuneerUI is a library of animated and interactive React components designed to streamline UI development and simplify your workflow.`}
+            highlightWords={['MuneerUI', 'animated', 'components', 'simplify']}
             highlightClass="highlighted"
             trigger={trigger}
             gravity={gravity}
