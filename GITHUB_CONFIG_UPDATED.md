@@ -28,12 +28,12 @@ ko_fi: # Add your Ko-fi username here
 ---
 
 ### 2. **`.github/ISSUE_TEMPLATE/1-bug-report.yml`** ✅
-**Updated references from "React Bits" to "MuneerUI"**
+**Updated references from "MuneerUi" to "MuneerUI"**
 
 ```yaml
 # Before:
-description: Help improve React Bits.
-value: ## Thanks for trying to improve React Bits!
+description: Help improve MuneerUi.
+value: ## Thanks for trying to improve MuneerUi!
 placeholder: https://github.com/DavidHDev/react-bits
 
 # After:
@@ -45,13 +45,13 @@ placeholder: https://github.com/Muneerali199/MuneerUI
 ---
 
 ### 3. **`.github/ISSUE_TEMPLATE/2-feature-request.yml`** ✅
-**Updated references from "React Bits" to "MuneerUI"**
+**Updated references from "MuneerUi" to "MuneerUI"**
 
 ```yaml
 # Before:
-description: Suggest something for React Bits.
-value: ## Thanks for trying to improve React Bits!
-description: What would you like to see in React Bits?
+description: Suggest something for MuneerUi.
+value: ## Thanks for trying to improve MuneerUi!
+description: What would you like to see in MuneerUi?
 
 # After:
 description: Suggest something for MuneerUI.
@@ -82,7 +82,7 @@ Now showcase images will be loaded from your own domain instead of external URLs
 The "Sponsor this project" button on GitHub will no longer show the old Ko-fi link. It will be hidden until you add your own sponsor information.
 
 ### ✅ Clean Issue Templates
-When users report bugs or request features, they'll see "MuneerUI" everywhere instead of "React Bits".
+When users report bugs or request features, they'll see "MuneerUI" everywhere instead of "MuneerUi".
 
 ### ✅ Your GitHub Repository
 All issue template links now point to `Muneerali199/MuneerUI` instead of the old repository.
