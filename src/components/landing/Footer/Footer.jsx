@@ -1,8 +1,8 @@
 import FadeContent from '../../../content/Animations/FadeContent/FadeContent';
-import ReactBitsLogo from '../../../assets/logos/react-bits-logo.svg';
 import { AiFillHeart } from 'react-icons/ai';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import Logo from '../Logo/Logo';
 
 const Footer = () => {
   return (
@@ -10,14 +10,16 @@ const Footer = () => {
       <footer className="landing-footer">
         <div className="footer-content">
           <div className="footer-left">
-            <img src={ReactBitsLogo} alt="MuneerUI" className="footer-logo" />
+            <div style={{ transform: 'scale(0.9)', transformOrigin: 'left' }}>
+              <Logo />
+            </div>
             <p className="footer-description">
-              A library created with <AiFillHeart className="footer-heart" /> by{' '}
-              <a href="https://github.com/muneerali" target="_blank" className="footer-creator-link">
-                Muneer Ali Subzwari
+              A modern React component library created with <AiFillHeart className="footer-heart" /> by{' '}
+              <a href="https://github.com/Muneerali199" target="_blank" rel="noopener noreferrer" className="footer-creator-link">
+                Muneer Ali
               </a>
             </p>
-            <p className="footer-copyright">© {new Date().getFullYear()} MuneerUI - Built by Muneer Ali</p>
+            <p className="footer-copyright">© {new Date().getFullYear()} MuneerUI - Created by Muneer Ali</p>
           </div>
 
           <div className="footer-links">
