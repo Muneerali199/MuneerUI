@@ -289,7 +289,7 @@ function buildRegistry() {
   ).toFixed(1);
 
   // Fancy header
-  const header = invert(bold(' REACT BITS REGISTRY '));
+  const header = invert(bold(' MuneerUi REGISTRY '));
   console.log('\n' + header + '\n');
 
   const line = (label, value, colorFn = x => x) => {
