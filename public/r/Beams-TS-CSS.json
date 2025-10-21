@@ -17,7 +17,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/Beams/Beams.css",
-      "content": ".beams-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".beams-container {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
