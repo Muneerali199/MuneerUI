@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/Balatro/Balatro.css",
-      "content": ".balatro-container {\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".balatro-container {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
