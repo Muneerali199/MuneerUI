@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Backgrounds/Particles/Particles.css",
-      "content": ".particles-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".particles-container {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
