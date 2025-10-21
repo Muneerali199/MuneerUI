@@ -1,6 +1,6 @@
-# React Bits
+# MuneerUi
 
-> React Bits is an open source collection of memorable UI elements - Components, Animations, Backgrounds, and Text Animations - provided in four implementation variants: JavaScript + CSS, JavaScript + Tailwind, TypeScript + CSS, and TypeScript + Tailwind. Components are copy-friendly and installable via CLI (jsrepo or shadcn).
+> MuneerUi is an open source collection of memorable UI elements - Components, Animations, Backgrounds, and Text Animations - provided in four implementation variants: JavaScript + CSS, JavaScript + Tailwind, TypeScript + CSS, and TypeScript + Tailwind. Components are copy-friendly and installable via CLI (jsrepo or shadcn).
 
 Important notes for agents:
 
@@ -172,7 +172,7 @@ Notes:
 
 ## MCP
 
-- [MCP Setup](https://www.reactbits.dev/get-started/mcp): How AI agents can browse/search React Bits.
+- [MCP Setup](https://www.reactbits.dev/get-started/mcp): How AI agents can browse/search MuneerUi.
 - [Model Context Protocol](https://modelcontextprotocol.io/): Protocol reference.
 
 ## Development
