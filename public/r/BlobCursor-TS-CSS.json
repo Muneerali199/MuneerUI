@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Animations/BlobCursor/BlobCursor.css",
-      "content": ".blob-container {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.blob-main {\n  pointer-events: none;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  background: transparent;\n  user-select: none;\n  cursor: default;\n}\n\n.blob {\n  position: absolute;\n  will-change: transform;\n  transform: translate(-50%, -50%);\n}\n\n.inner-dot {\n  position: absolute;\n}\n",
+      "content": ".blob-container {\r\n  position: relative;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.blob-main {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n  background: transparent;\r\n  user-select: none;\r\n  cursor: default;\r\n}\r\n\r\n.blob {\r\n  position: absolute;\r\n  will-change: transform;\r\n  transform: translate(-50%, -50%);\r\n}\r\n\r\n.inner-dot {\r\n  position: absolute;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
