@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/Threads/Threads.css",
-      "content": ".threads-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".threads-container {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
