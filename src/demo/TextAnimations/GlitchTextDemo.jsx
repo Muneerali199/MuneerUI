@@ -58,7 +58,7 @@ const GlitchTextDemo = () => {
       <PreviewTab>
         <Box position="relative" className="demo-container" h={500} overflow="hidden">
           <GlitchText key={key} speed={speed} enableShadows={enableShadows} enableOnHover={enableOnHover}>
-            {enableOnHover ? 'Hover Me' : 'React Bits'}
+            {enableOnHover ? 'Hover Me' : 'MuneerUI'}
           </GlitchText>
         </Box>
 
