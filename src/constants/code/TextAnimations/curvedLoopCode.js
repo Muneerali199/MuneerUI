@@ -8,11 +8,11 @@ export const curvedLoop = {
   usage: `import CurvedLoop from './CurvedLoop';
 
 // Basic usage
-<CurvedLoop marqueeText="Welcome to React Bits ✦" />
+<CurvedLoop marqueeText="Welcome to MuneerUI ✦" />
 
 // With custom props
 <CurvedLoop 
-  marqueeText="Be ✦ Creative ✦ With ✦ React ✦ Bits ✦"
+  marqueeText="Be ✦ Creative ✦ With ✦ MuneerUI ✦"
   speed={3}
   curveAmount={500}
   direction="right"
