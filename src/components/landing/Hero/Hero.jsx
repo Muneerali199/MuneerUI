@@ -52,7 +52,7 @@ const Hero = () => {
         <h1 className="landing-title">
           <ResponsiveSplitText
             isMobile={isMobile}
-            text="Build Beautiful UIs"
+            text="Next-Gen React"
             className="hero-split"
             splitType="chars"
             delay={30}
@@ -62,7 +62,7 @@ const Hero = () => {
           <br />
           <ResponsiveSplitText
             isMobile={isMobile}
-            text="Without The Complexity"
+            text="Components"
             className="hero-split"
             splitType="chars"
             delay={30}
@@ -77,14 +77,14 @@ const Hero = () => {
           splitType="words"
           delay={25}
           duration={1}
-          text="110+ stunning, animated React components built by Muneer Ali Subzwari. Copy, paste, and customize - it's that simple. Free, open-source, and production-ready."
+          text="Premium animated React components with stunning visual effects. Built with React, TypeScript, Framer Motion & Tailwind CSS. Production-ready code you can copy and paste."
         />
 
         <Link to={'/text-animations/split-text'} className="landing-button">
-          <span>Start Building Amazing UIs</span>
+          <span>Explore Components</span>
           <div className="button-arrow-circle">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6 12L10 8L6 4" stroke="#4c1d95" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 12L10 8L6 4" stroke="#00ffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
         </Link>
