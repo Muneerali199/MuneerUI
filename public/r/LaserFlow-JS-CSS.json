@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Animations/LaserFlow/LaserFlow.css",
-      "content": ".laser-flow-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  pointer-events: none;\n}\n",
+      "content": ".laser-flow-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n  pointer-events: none;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
