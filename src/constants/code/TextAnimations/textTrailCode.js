@@ -13,7 +13,7 @@ export const textTrail = {
 
 // Usage with all props
 <TextTrail 
-  text="React Bits"
+  text="MuneerUI"
   fontFamily="Figtree"
   fontWeight="900"
   noiseFactor={1.2}
