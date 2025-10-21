@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/LiquidEther/LiquidEther.css",
-      "content": ".liquid-ether-container {\n  position: relative;\n  overflow: hidden;\n  width: 100%;\n  height: 100%;\n  touch-action: none;\n}\n",
+      "content": ".liquid-ether-container {\r\n  position: relative;\r\n  overflow: hidden;\r\n  width: 100%;\r\n  height: 100%;\r\n  touch-action: none;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
