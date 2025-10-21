@@ -16,7 +16,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/PixelBlast/PixelBlast.css",
-      "content": ".pixel-blast-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  overflow: hidden;\n}\n",
+      "content": ".pixel-blast-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n  overflow: hidden;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
