@@ -23,13 +23,14 @@ import { useStars } from '../../hooks/useStars';
 import { useSearch } from '../context/SearchContext/useSearch';
 import { useOptions } from '../context/OptionsContext/useOptions';
 
-import Logo from '../../assets/logos/react-bits-logo.svg';
+import LogoComponent from '../landing/Logo/Logo';
 import Star from '../../assets/common/star.svg';
 import jsIcon from '../../assets/icons/js.svg';
 import tsIcon from '../../assets/icons/ts.svg';
 import cssIcon from '../../assets/icons/css.svg';
 import twIcon from '../../assets/icons/tw.svg';
 import FadeContent from '../../content/Animations/FadeContent/FadeContent';
+import { FiGithub } from 'react-icons/fi';
 
 const Header = () => {
   const langCollection = useMemo(() => createListCollection({ items: ['JS', 'TS'] }), []);
@@ -192,7 +193,9 @@ const Header = () => {
     <Box zIndex={100} className="main-nav">
       <Flex className="nav-items" h={20} alignItems="center" justifyContent="space-between" px={4}>
         <RouterLink to="/" className="logo">
-          <Image src={Logo} alt="Logo" className="cursor-target" />
+          <div style={{ transform: 'scale(0.8)', transformOrigin: 'left' }}>
+            <LogoComponent />
+          </div>
         </RouterLink>
 
         <IconButton
@@ -251,7 +254,7 @@ const Header = () => {
           <FadeContent blur>
             <button
               className="cta-button-docs"
-              onClick={() => window.open('https://github.com/DavidHDev/react-bits', '_blank')}
+              onClick={() => window.open('https://github.com/Muneerali199/MuneerUI', '_blank')}
             >
               Star On GitHub
               <span ref={starCountRef}>
@@ -269,7 +272,9 @@ const Header = () => {
             <Drawer.Body p={0}>
               <Flex direction="column">
                 <Flex align="center" justify="space-between" h="57px" px={6} mb={6} borderBottom="1px solid #ffffff1c">
-                  <Image src={Logo} alt="Logo" h="25px" />
+                  <div style={{ transform: 'scale(0.6)', transformOrigin: 'left' }}>
+                    <LogoComponent />
+                  </div>
                   <IconButton
                     aria-label="Close Menu"
                     icon={<Icon as={FiStopCircle} boxSize={4} />}
@@ -284,17 +289,17 @@ const Header = () => {
                   <RouterLink to="/text-animations/split-text" onClick={onClose}>
                     Docs
                   </RouterLink>
-                  <RouterLink to="https://github.com/DavidHDev/react-bits" target="_blank" onClick={onClose}>
+                  <RouterLink to="https://github.com/Muneerali199/MuneerUI" target="_blank" onClick={onClose}>
                     GitHub <Icon as={FiArrowRight} transform="rotate(-45deg)" ml={1} />
                   </RouterLink>
 
                   <Separator my={4} />
 
                   <Text fontWeight="bold">Other</Text>
-                  <RouterLink to="https://x.com/davidhdev" target="_blank" onClick={onClose}>
+                  <a href="https://github.com/Muneerali199" target="_blank" onClick={onClose} style={{ textDecoration: 'none', color: 'inherit' }}>
                     Who made this?
                     <Icon as={FiArrowRight} transform="rotate(-45deg)" ml={1} />
-                  </RouterLink>
+                  </a>
                 </Flex>
               </Flex>
             </Drawer.Body>
