@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Components/DecayCard/DecayCard.css",
-      "content": ".content {\n  position: relative;\n}\n\n.svg {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  display: block;\n  will-change: transform;\n}\n\n.card-text {\n  position: absolute;\n  bottom: 1.2em;\n  letter-spacing: -0.5px;\n  font-weight: 900;\n  left: 1em;\n  font-size: 2.5rem;\n  line-height: 1.5em;\n}\n\n.card-text::first-line {\n  font-size: 6rem;\n}\n",
+      "content": ".content {\r\n  position: relative;\r\n}\r\n\r\n.svg {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n  display: block;\r\n  will-change: transform;\r\n}\r\n\r\n.card-text {\r\n  position: absolute;\r\n  bottom: 1.2em;\r\n  letter-spacing: -0.5px;\r\n  font-weight: 900;\r\n  left: 1em;\r\n  font-size: 2.5rem;\r\n  line-height: 1.5em;\r\n}\r\n\r\n.card-text::first-line {\r\n  font-size: 6rem;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
