@@ -17,7 +17,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Animations/PixelTrail/PixelTrail.css",
-      "content": ".goo-filter-container {\n  position: absolute;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.pixel-canvas {\n  position: absolute;\n  z-index: 1;\n}\n",
+      "content": ".goo-filter-container {\r\n  position: absolute;\r\n  overflow: hidden;\r\n  z-index: 1;\r\n}\r\n\r\n.pixel-canvas {\r\n  position: absolute;\r\n  z-index: 1;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
