@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Animations/MetaBalls/MetaBalls.css",
-      "content": ".metaballs-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".metaballs-container {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
