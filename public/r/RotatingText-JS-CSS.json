@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/TextAnimations/RotatingText/RotatingText.css",
-      "content": ".text-rotate {\n  display: flex;\n  flex-wrap: wrap;\n  white-space: pre-wrap;\n  position: relative;\n}\n\n.text-rotate-sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border: 0;\n}\n\n.text-rotate-word {\n  display: inline-flex;\n}\n\n.text-rotate-lines {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n}\n\n.text-rotate-element {\n  display: inline-block;\n}\n\n.text-rotate-space {\n  white-space: pre;\n}\n",
+      "content": ".text-rotate {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  white-space: pre-wrap;\r\n  position: relative;\r\n}\r\n\r\n.text-rotate-sr-only {\r\n  position: absolute;\r\n  width: 1px;\r\n  height: 1px;\r\n  padding: 0;\r\n  margin: -1px;\r\n  overflow: hidden;\r\n  clip: rect(0, 0, 0, 0);\r\n  white-space: nowrap;\r\n  border: 0;\r\n}\r\n\r\n.text-rotate-word {\r\n  display: inline-flex;\r\n}\r\n\r\n.text-rotate-lines {\r\n  display: flex;\r\n  flex-direction: column;\r\n  width: 100%;\r\n}\r\n\r\n.text-rotate-element {\r\n  display: inline-block;\r\n}\r\n\r\n.text-rotate-space {\r\n  white-space: pre;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
