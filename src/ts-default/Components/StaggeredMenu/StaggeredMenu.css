@@ -304,7 +304,7 @@
 }
 
 .sm-panel-item:hover {
-  color: var(--sm-accent, #5227ff);
+  color: var(--sm-accent, #E0E0E0);
 }
 
 .sm-panel-list[data-numbering] {
@@ -319,7 +319,7 @@
   right: 3.2em;
   font-size: 18px;
   font-weight: 400;
-  color: var(--sm-accent, #5227ff);
+  color: var(--sm-accent, #E0E0E0);
   letter-spacing: 0;
   pointer-events: none;
   user-select: none;
