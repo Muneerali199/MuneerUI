@@ -96,8 +96,8 @@
 
 .feature-card {
     user-select: none;
-    background: #060010;
-    border: 1px solid rgba(169, 148, 184, 0.2);
+    background: rgba(0, 255, 255, 0.02);
+    border: 1px solid rgba(0, 255, 255, 0.1);
     border-radius: 16px;
     padding: 2rem;
     text-align: left;
@@ -144,8 +144,9 @@
 }
 
 .feature-card:hover {
-    box-shadow: 0 4px 40px -15px rgba(46, 24, 78, 0.4) !important;
-    background: #0d0716;
+    box-shadow: 0 20px 60px rgba(0, 255, 255, 0.2), 0 0 80px rgba(0, 102, 255, 0.1) !important;
+    background: rgba(0, 255, 255, 0.05);
+    border-color: rgba(0, 255, 255, 0.3);
 }
 
 .feature-card:hover::before {
@@ -178,13 +179,14 @@
     top: 22px;
     margin: 0;
     font-weight: 800;
-    background: linear-gradient(135deg, #fff 0%, #667eea 20%, #8b7bd8 40%, #764ba2 60%, #8b7bd8 80%, #fff 100%);
+    background: linear-gradient(135deg, #00ffff 0%, #0066ff 20%, #00ccff 40%, #0099ff 60%, #00ccff 80%, #00ffff 100%);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     animation: gradientShift 4s ease-in-out infinite;
     z-index: 10;
+    filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.3));
 }
 
 .feature-card p {
@@ -206,11 +208,11 @@
     position: absolute;
     width: 4px;
     height: 4px;
-    background: rgba(102, 126, 234, 0.8);
+    background: rgba(0, 255, 255, 0.8);
     border-radius: 50%;
     pointer-events: none;
     z-index: 100;
-    box-shadow: 0 0 6px rgba(102, 126, 234, 0.6);
+    box-shadow: 0 0 6px rgba(0, 255, 255, 0.6);
 }
 
 .particle::before {
@@ -220,7 +222,7 @@
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: rgba(102, 126, 234, 0.3);
+    background: rgba(0, 255, 255, 0.3);
     border-radius: 50%;
     z-index: -1;
 }
@@ -272,7 +274,7 @@
     left: 0;
     right: 0;
     height: 20%;
-    background: linear-gradient(to top, #060010 0%, transparent 100%);
+    background: linear-gradient(to top, #000000 0%, transparent 100%);
     border-radius: 0 0 8px 8px;
     pointer-events: none;
     z-index: 2;
@@ -285,7 +287,7 @@
     left: 0;
     right: 0;
     height: 20%;
-    background: linear-gradient(to bottom, #060010 0%, transparent 100%);
+    background: linear-gradient(to bottom, #000000 0%, transparent 100%);
     border-radius: 8px 8px 0 0;
     pointer-events: none;
     z-index: 2;
@@ -325,7 +327,7 @@
     left: 0;
     right: 0;
     height: 20%;
-    background: linear-gradient(to top, #060010 0%, transparent 100%);
+    background: linear-gradient(to top, #000000 0%, transparent 100%);
     border-radius: 0 0 8px 8px;
     pointer-events: none;
     z-index: 2;
@@ -338,7 +340,7 @@
     left: 0;
     right: 0;
     height: 20%;
-    background: linear-gradient(to bottom, #060010 0%, transparent 100%);
+    background: linear-gradient(to bottom, #000000 0%, transparent 100%);
     border-radius: 8px 8px 0 0;
     pointer-events: none;
     z-index: 2;
@@ -377,7 +379,7 @@
     left: 0;
     right: 0;
     height: 20%;
-    background: linear-gradient(to top, #060010 0%, transparent 100%);
+    background: linear-gradient(to top, #000000 0%, transparent 100%);
     border-radius: 0 0 8px 8px;
     pointer-events: none;
     z-index: 2;
@@ -390,7 +392,7 @@
     left: 0;
     right: 0;
     height: 20%;
-    background: linear-gradient(to bottom, #060010 0%, transparent 100%);
+    background: linear-gradient(to bottom, #000000 0%, transparent 100%);
     border-radius: 8px 8px 0 0;
     pointer-events: none;
     z-index: 2;
