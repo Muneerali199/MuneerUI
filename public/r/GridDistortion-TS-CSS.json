@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/GridDistortion/GridDistortion.css",
-      "content": ".distortion-container {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n}\n",
+      "content": ".distortion-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
