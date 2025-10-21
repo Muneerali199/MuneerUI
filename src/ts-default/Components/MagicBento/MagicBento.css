@@ -2,11 +2,11 @@
   --hue: 27;
   --sat: 69%;
   --white: hsl(0, 0%, 100%);
-  --purple-primary: rgba(132, 0, 255, 1);
-  --purple-glow: rgba(132, 0, 255, 0.2);
-  --purple-border: rgba(132, 0, 255, 0.8);
-  --border-color: #392e4e;
-  --background-dark: #060010;
+  --blue-primary: rgba(224, 224, 224, 1);
+  --blue-glow: rgba(255, 255, 255, 0.08);
+  --blue-border: rgba(255, 255, 255, 0.3);
+  --border-color: rgba(255, 255, 255, 0.08);
+  --background-dark: #000000;
   color-scheme: light dark;
 }
 
@@ -176,7 +176,7 @@
 .card--border-glow:hover {
   box-shadow:
     0 4px 20px rgba(46, 24, 78, 0.4),
-    0 0 30px var(--purple-glow);
+    0 0 30px var(--blue-glow);
 }
 
 .particle-container {
@@ -199,7 +199,7 @@
 .particle-container:hover {
   box-shadow:
     0 4px 20px rgba(46, 24, 78, 0.2),
-    0 0 30px var(--purple-glow);
+    0 0 30px var(--blue-glow);
 }
 
 /* Global spotlight styles */
