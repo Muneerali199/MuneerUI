@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/LightRays/LightRays.css",
-      "content": ".light-rays-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  pointer-events: none;\n  z-index: 3;\n  overflow: hidden;\n}\n",
+      "content": ".light-rays-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n  pointer-events: none;\r\n  z-index: 3;\r\n  overflow: hidden;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
