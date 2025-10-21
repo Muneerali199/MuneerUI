@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/TextAnimations/ScrambledText/ScrambledText.css",
-      "content": ".text-block {\n  margin: 7vw;\n  max-width: 800px;\n  font-family: monospace;\n  font-size: clamp(14px, 4vw, 32px);\n  color: #fff;\n}\n\n.char {\n  will-change: transform;\n  display: inline-block;\n}\n",
+      "content": ".text-block {\r\n  margin: 7vw;\r\n  max-width: 800px;\r\n  font-family: monospace;\r\n  font-size: clamp(14px, 4vw, 32px);\r\n  color: #fff;\r\n}\r\n\r\n.char {\r\n  will-change: transform;\r\n  display: inline-block;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
