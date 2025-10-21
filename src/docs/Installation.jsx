@@ -101,7 +101,7 @@ const Installation = () => {
           <p className="docs-paragraph dim">Use a one-time command to pull any component directly into your project.</p>
 
           <p className="docs-paragraph">
-            React Bits supports two CLI installation methods:{' '}
+            MuneerUI supports two CLI installation methods:{' '}
             <a style={{ textDecoration: 'underline' }} href="https://ui.shadcn.com/" target="_blank">
               shadcn
             </a>{' '}
@@ -121,7 +121,7 @@ const Installation = () => {
             shadcn
           </h4>
           <p className="docs-paragraph short"></p>
-          <CodeBlock>{`npx shadcn@latest add https://reactbits.dev/r/SplitText-<LANGUAGE>-<STYLE>`}</CodeBlock>
+          <CodeBlock>{`npx shadcn@latest add muneer-cli/r/SplitText-<LANGUAGE>-<STYLE>`}</CodeBlock>
           <p className="docs-paragraph short">&lt;LANGUAGE&gt; + &lt;STYLE&gt; combinations:</p>
           <ul className="docs-list">
             <li className="docs-list-item">
@@ -142,7 +142,7 @@ const Installation = () => {
             jsrepo
           </h4>
           <p className="docs-paragraph short"></p>
-          <CodeBlock>{`npx jsrepo add https://reactbits.dev/<VARIANT>/TextAnimations/SplitText`}</CodeBlock>
+          <CodeBlock>{`npx jsrepo add muneer-cli/<VARIANT>/TextAnimations/SplitText`}</CodeBlock>
           <p className="docs-paragraph short">&lt;VARIANT&gt; options:</p>
           <ul className="docs-list">
             <li className="docs-list-item">
