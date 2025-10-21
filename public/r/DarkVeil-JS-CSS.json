@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Backgrounds/DarkVeil/DarkVeil.css",
-      "content": ".darkveil-canvas {\n  width: 100%;\n  height: 100%;\n  display: block;\n}\n",
+      "content": ".darkveil-canvas {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: block;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
