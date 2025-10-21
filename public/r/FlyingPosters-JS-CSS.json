@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Components/FlyingPosters/FlyingPosters.css",
-      "content": ".posters-container {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  position: relative;\n  z-index: 2;\n}\n\n.posters-canvas {\n  display: block;\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".posters-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n  position: relative;\r\n  z-index: 2;\r\n}\r\n\r\n.posters-canvas {\r\n  display: block;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
