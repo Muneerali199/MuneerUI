@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Components/Stack/Stack.css",
-      "content": ".stack-container {\n  position: relative;\n  perspective: 600px;\n}\n\n.card-rotate {\n  position: absolute;\n  cursor: grab;\n}\n\n.card {\n  border-radius: 20px;\n  border: 5px solid #fff;\n  overflow: hidden;\n}\n\n.card-image {\n  pointer-events: none;\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n",
+      "content": ".stack-container {\r\n  position: relative;\r\n  perspective: 600px;\r\n}\r\n\r\n.card-rotate {\r\n  position: absolute;\r\n  cursor: grab;\r\n}\r\n\r\n.card {\r\n  border-radius: 20px;\r\n  border: 5px solid #fff;\r\n  overflow: hidden;\r\n}\r\n\r\n.card-image {\r\n  pointer-events: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  object-fit: cover;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
