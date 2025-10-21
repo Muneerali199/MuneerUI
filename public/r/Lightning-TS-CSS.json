@@ -12,7 +12,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/Lightning/Lightning.css",
-      "content": ".lightning-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n",
+      "content": ".lightning-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
