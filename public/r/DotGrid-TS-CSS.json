@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/DotGrid/DotGrid.css",
-      "content": ".dot-grid {\n  padding: 1em;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n  position: relative;\n}\n\n.dot-grid__wrap {\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n\n.dot-grid__canvas {\n  position: absolute;\n  inset: 0;\n  width: 100%;\n  height: 100%;\n  pointer-events: none;\n}\n",
+      "content": ".dot-grid {\r\n  padding: 1em;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: 100%;\r\n  width: 100%;\r\n  position: relative;\r\n}\r\n\r\n.dot-grid__wrap {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: relative;\r\n}\r\n\r\n.dot-grid__canvas {\r\n  position: absolute;\r\n  inset: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  pointer-events: none;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
