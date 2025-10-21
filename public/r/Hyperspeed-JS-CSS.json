@@ -16,7 +16,7 @@
     },
     {
       "path": "public/default/src/content/Backgrounds/Hyperspeed/Hyperspeed.css",
-      "content": "#lights {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  position: absolute;\n}\n\ncanvas {\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": "#lights {\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n  position: absolute;\r\n}\r\n\r\ncanvas {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
