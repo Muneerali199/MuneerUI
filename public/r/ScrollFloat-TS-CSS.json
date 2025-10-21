@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/TextAnimations/ScrollFloat/ScrollFloat.css",
-      "content": ".scroll-float {\n  overflow: hidden;\n}\n\n.scroll-float-text {\n  display: inline-block;\n  font-size: clamp(1.6rem, 8vw, 10rem);\n  font-weight: 900;\n  text-align: center;\n  line-height: 1.5;\n}\n\n.char {\n  display: inline-block;\n}\n",
+      "content": ".scroll-float {\r\n  overflow: hidden;\r\n}\r\n\r\n.scroll-float-text {\r\n  display: inline-block;\r\n  font-size: clamp(1.6rem, 8vw, 10rem);\r\n  font-weight: 900;\r\n  text-align: center;\r\n  line-height: 1.5;\r\n}\r\n\r\n.char {\r\n  display: inline-block;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
