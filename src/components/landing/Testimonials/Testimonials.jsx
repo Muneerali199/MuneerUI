@@ -26,7 +26,7 @@ const Testimonials = () => {
     {
       id: 4,
       avatar: 'https://pbs.twimg.com/profile_images/1722358890807861248/75S7CB3G_400x400.jpg',
-      text: 'React Bits: A stellar collection of React components to make your landing pages shine ✨',
+      text: 'MuneerUi: A stellar collection of React components to make your landing pages shine ✨',
       handle: '@gregberge_',
       url: 'https://x.com/gregberge_/status/1896425347866059041'
     },
@@ -40,21 +40,21 @@ const Testimonials = () => {
     {
       id: 6,
       avatar: 'https://pbs.twimg.com/profile_images/1880284612062056448/4Y2C8Xnv_400x400.jpg',
-      text: 'Have you heard of react bits? David Haz has lovingly put together a collection of animated and fully customizable React components.',
+      text: 'Have you heard of MuneerUi? David Haz has lovingly put together a collection of animated and fully customizable React components.',
       handle: '@DIYDevs',
       url: 'https://x.com/DIYDevs/status/1892964440900763761'
     },
     {
       id: 7,
       avatar: 'https://pbs.twimg.com/profile_images/1724192049002340352/-tood-4D_400x400.jpg',
-      text: 'React Bits has got to be the most artistic ui component lib I have seen in a while 🤌',
+      text: 'MuneerUi has got to be the most artistic ui component lib I have seen in a while 🤌',
       handle: '@GibsonSMurray',
       url: 'https://x.com/GibsonSMurray/status/1889909058838339626'
     },
     {
       id: 8,
       avatar: 'https://pbs.twimg.com/profile_images/1920165535351742464/CJU2uWMU_400x400.jpg',
-      text: 'Was scrolling X, I saw a post regarding UI library and got to know about React Bits and its just wow, the components are incredibly well designed! Really loved the overall feel and quality.',
+      text: 'Was scrolling X, I saw a post regarding UI library and got to know about MuneerUi and its just wow, the components are incredibly well designed! Really loved the overall feel and quality.',
       handle: '@irohandev',
       url: 'https://x.com/irohandev/status/1934877463064268822'
     },
@@ -102,7 +102,7 @@ const Testimonials = () => {
       <div className="testimonials-container">
         <div className="testimonials-header">
           <h3 className="testimonials-title">Loved by devs worldwide</h3>
-          <p className="testimonials-subtitle">See what developers are saying about React Bits</p>
+          <p className="testimonials-subtitle">See what developers are saying about MuneerUI</p>
         </div>
 
         <div className="testimonials-marquee-container">
