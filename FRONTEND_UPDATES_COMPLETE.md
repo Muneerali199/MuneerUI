@@ -4,7 +4,7 @@
 
 ### 📝 Summary of Changes
 
-All instances of "React Bits" and related branding have been updated to "MuneerUI" throughout the entire frontend. This includes:
+All instances of "MuneerUi" and related branding have been updated to "MuneerUI" throughout the entire frontend. This includes:
 
 ---
 
