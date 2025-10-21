@@ -1,45 +1,47 @@
-import { useEffect, useState } from 'react';
-import FeatureCards from '../components/landing/FeatureCards/FeatureCards';
-import Testimonials from '../components/landing/Testimonials/Testimonials';
-import StartBuilding from '../components/landing/StartBuilding/StartBuilding';
-import PlasmaWaveV2 from '../components/landing/PlasmaWave/PlasmaWaveV2';
-import Announcement from '../components/common/Misc/Announcement';
+import { useEffect } from 'react';
+import NewHero from '../components/landing/NewHero/NewHero';
+import FeaturesShowcase from '../components/landing/FeaturesShowcase/FeaturesShowcase';
+import ComponentsPreview from '../components/landing/ComponentsPreview/ComponentsPreview';
+import Stats from '../components/landing/Stats/Stats';
+import TechStack from '../components/landing/TechStack/TechStack';
+import CTASection from '../components/landing/CTASection/CTASection';
 import Footer from '../components/landing/Footer/Footer';
-import Hero from '../components/landing/Hero/Hero';
-import heroImage from '../assets/common/hero.webp';
 
 const LandingPage = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
   useEffect(() => {
     window.scrollTo(0, 0);
-    const checkIsMobile = () => setIsMobile(window.innerWidth <= 768);
-    checkIsMobile();
-
-    window.addEventListener('resize', checkIsMobile);
-    return () => window.removeEventListener('resize', checkIsMobile);
+    
+    // Ensure body is scrollable
+    document.body.style.overflow = 'auto';
+    document.body.style.height = 'auto';
+    document.documentElement.style.overflow = 'auto';
+    document.documentElement.style.height = 'auto';
+    
+    return () => {
+      document.body.style.overflow = '';
+      document.body.style.height = '';
+      document.documentElement.style.overflow = '';
+      document.documentElement.style.height = '';
+    };
   }, []);
 
   return (
-    <section className="landing-wrapper">
-      <title>MuneerUI - Ultimate React UI Component Library</title>
+    <div style={{ 
+      background: 'linear-gradient(180deg, #000000 0%, #0A0A0A 50%, #000000 100%)', 
+      minHeight: '100vh',
+      width: '100%',
+      overflow: 'visible'
+    }}>
+      <title>MuneerUI - Modern React Component Library</title>
 
-      <Announcement />
-
-      {isMobile && (
-        <div className="mobile-hero-background-container">
-          <img src={heroImage} alt="Hero background" className="mobile-hero-background-image" />
-        </div>
-      )}
-
-      <PlasmaWaveV2 yOffset={0} xOffset={40} rotationDeg={-45} />
-
-      <Hero />
-      <FeatureCards />
-      <Testimonials />
-      <StartBuilding />
+      <NewHero />
+      <FeaturesShowcase />
+      <ComponentsPreview />
+      <Stats />
+      <TechStack />
+      <CTASection />
       <Footer />
-    </section>
+    </div>
   );
 };
 
