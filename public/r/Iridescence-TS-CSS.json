@@ -15,7 +15,7 @@
     },
     {
       "path": "public/ts/default/src/ts-default/Backgrounds/Iridescence/Iridescence.css",
-      "content": ".iridescence-container {\n  width: 100%;\n  height: 100%;\n}\n",
+      "content": ".iridescence-container {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
