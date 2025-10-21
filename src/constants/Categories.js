@@ -1,5 +1,23 @@
 // Highlighted sidebar items
 export const NEW = [
+  'Premium Pricing Card',
+  'Morphing Card',
+  'Liquid Button',
+  'Parallax Hero',
+  'Holographic Card',
+  'Glass Card',
+  'Magnetic Button',
+  'Pricing Card',
+  'Payment Form',
+  'Checkout Flow',
+  'Aurora Waves',
+  'Neural Network',
+  'Particle Field',
+  'Glowing Grid',
+  'Matrix Rain',
+  'Floating Bubbles',
+  'Digital Waves',
+  'Star Field',
   'Pixel Blast',
   'Dome Gallery',
   'Gradual Blur',
@@ -54,6 +72,12 @@ export const CATEGORIES = [
   {
     name: 'Animations',
     subcategories: [
+      'Morphing Card',
+      'Liquid Button',
+      'Parallax Hero',
+      'Holographic Card',
+      'Glass Card',
+      'Magnetic Button',
       'Animated Content',
       'Fade Content',
       'Electric Border',
@@ -84,6 +108,10 @@ export const CATEGORIES = [
   {
     name: 'Components',
     subcategories: [
+      'Premium Pricing Card',
+      'Pricing Card',
+      'Payment Form',
+      'Checkout Flow',
       'Animated List',
       'Scroll Stack',
       'Bubble Menu',
@@ -125,6 +153,15 @@ export const CATEGORIES = [
   {
     name: 'Backgrounds',
     subcategories: [
+      'Aurora Waves',
+      'Neural Network',
+      'Particle Field',
+      'Glowing Grid',
+      'Matrix Rain',
+      'Floating Bubbles',
+      'Digital Waves',
+      'Star Field',
+      'Cosmic Dust',
       'Liquid Ether',
       'Prism',
       'Dark Veil',
