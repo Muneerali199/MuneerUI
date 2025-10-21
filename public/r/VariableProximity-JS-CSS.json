@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/TextAnimations/VariableProximity/VariableProximity.css",
-      "content": "@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');\n\n.variable-proximity {\n  font-family: 'Roboto Flex', sans-serif;\n}\n\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border: 0;\n}\n",
+      "content": "@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');\r\n\r\n.variable-proximity {\r\n  font-family: 'Roboto Flex', sans-serif;\r\n}\r\n\r\n.sr-only {\r\n  position: absolute;\r\n  width: 1px;\r\n  height: 1px;\r\n  padding: 0;\r\n  margin: -1px;\r\n  overflow: hidden;\r\n  clip: rect(0, 0, 0, 0);\r\n  white-space: nowrap;\r\n  border: 0;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
