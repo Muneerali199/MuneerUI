@@ -15,7 +15,7 @@
     },
     {
       "path": "public/default/src/content/Animations/PixelTransition/PixelTransition.css",
-      "content": ".pixelated-image-card {\n  background-color: #222;\n  color: var(--color-primary, #fff);\n  border-radius: 15px;\n  border: 2px solid #fff;\n  width: 300px;\n  max-width: 100%;\n  position: relative;\n  overflow: hidden;\n}\n\n.pixelated-image-card__default,\n.pixelated-image-card__active,\n.pixelated-image-card__pixels {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n.pixelated-image-card__active {\n  z-index: 2;\n}\n\n.pixelated-image-card__active {\n  display: none;\n}\n\n.pixelated-image-card__pixels {\n  pointer-events: none;\n  position: absolute;\n  z-index: 3;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.pixelated-image-card__pixel {\n  display: none;\n  position: absolute;\n}\n",
+      "content": ".pixelated-image-card {\r\n  background-color: #222;\r\n  color: var(--color-primary, #fff);\r\n  border-radius: 15px;\r\n  border: 2px solid #fff;\r\n  width: 300px;\r\n  max-width: 100%;\r\n  position: relative;\r\n  overflow: hidden;\r\n}\r\n\r\n.pixelated-image-card__default,\r\n.pixelated-image-card__active,\r\n.pixelated-image-card__pixels {\r\n  width: 100%;\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n\r\n.pixelated-image-card__active {\r\n  z-index: 2;\r\n}\r\n\r\n.pixelated-image-card__active {\r\n  display: none;\r\n}\r\n\r\n.pixelated-image-card__pixels {\r\n  pointer-events: none;\r\n  position: absolute;\r\n  z-index: 3;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.pixelated-image-card__pixel {\r\n  display: none;\r\n  position: absolute;\r\n}\r\n",
       "type": "registry:item"
     }
   ]
