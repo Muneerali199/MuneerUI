@@ -1,5 +1,5 @@
 <div align="center">
-Welcome to React Bits, the go-to open source library for high quality animated React components!
+Welcome to MuneerUi, the go-to open source library for high quality animated React components!
 </div>
 
 <div align="center">
