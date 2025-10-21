@@ -67,7 +67,7 @@ const McpServer = () => {
           <h4 className="docs-category-subtitle">2. Add MCP Server Configuration</h4>
 
           <p className="docs-paragraph short">
-            Select <span className="docs-highlight">&ldquo;New MCP Server&rdquo;</span>, then add the React Bits MCP
+            Select <span className="docs-highlight">&ldquo;New MCP Server&rdquo;</span>, then add the MuneerUi MCP
             server configuration:
           </p>
 
