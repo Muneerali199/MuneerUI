@@ -6,7 +6,7 @@ import { CATEGORIES, NEW, UPDATED } from '../../constants/Categories';
 import { componentMap } from '../../constants/Components';
 import { useSearch } from '../context/SearchContext/useSearch';
 import { useTransition } from '../../hooks/useTransition';
-import Logo from '../../assets/logos/react-bits-logo.svg';
+import LogoComponent from '../landing/Logo/Logo';
 
 const HOVER_TIMEOUT_DELAY = 150;
 const ICON_BUTTON_STYLES = {
@@ -206,8 +206,10 @@ const Sidebar = () => {
     <>
       <Box display={{ md: 'none' }} position="fixed" top={0} left={0} zIndex="overlay" w="100%" bg="#060010" p="1em">
         <Flex align="center" justify="space-between" gap="1em">
-          <Link to="/">
-            <Image src={Logo} h="32px" alt="React Bits logo" />
+          <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
+            <div style={{ transform: 'scale(0.7)', transformOrigin: 'left' }}>
+              <LogoComponent />
+            </div>
           </Link>
 
           <Flex gap={2}>
@@ -235,8 +237,10 @@ const Sidebar = () => {
           <Drawer.Content bg="#060010">
             <Drawer.Header h="72px" py={2} borderBottom="1px solid #ffffff1c" className="sidebar-logo">
               <Flex align="center" justify="space-between" w="100%">
-                <Link to="/">
-                  <Image src={Logo} alt="Logo" h="28px" />
+                <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
+                  <div style={{ transform: 'scale(0.6)', transformOrigin: 'left' }}>
+                    <LogoComponent />
+                  </div>
                 </Link>
                 <IconButton {...ICON_BUTTON_STYLES} aria-label="Close" onClick={closeDrawer}>
                   <Icon as={FiX} color="#fff" />
@@ -269,7 +273,7 @@ const Sidebar = () => {
               </Text>
               <Flex direction="column" gap={2}>
                 <Link
-                  to="https://github.com/DavidHDev/react-bits"
+                  to="https://github.com/Muneerali199/MuneerUI"
                   target="_blank"
                   onClick={closeDrawer}
                   display="block"
@@ -284,7 +288,7 @@ const Sidebar = () => {
                     <span>Showcase</span> <Icon as={FiArrowRight} {...ARROW_ICON_PROPS} />
                   </Flex>
                 </Link>
-                <Link to="https://x.com/davidhdev" target="_blank" onClick={closeDrawer} display="block" mb={2}>
+                <Link to="https://github.com/Muneerali199" target="_blank" onClick={closeDrawer} display="block" mb={2}>
                   <Flex alignItems="center" gap="4px">
                     <span>Who made this?</span> <Icon as={FiArrowRight} {...ARROW_ICON_PROPS} />
                   </Flex>
