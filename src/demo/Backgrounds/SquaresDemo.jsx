@@ -55,8 +55,8 @@ const SquaresDemo = () => {
               Direction
             </Text>
             <Button
-              bg={direction === 'diagonal' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === 'diagonal' ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'diagonal' ? '#FFD700' : '#1a1a1a'}
+              _hover={{ backgroundColor: `${direction === 'diagonal' ? '#FFD700' : '#1a1a1a'}` }}
               color="white"
               fontSize="xs"
               h={8}
@@ -67,8 +67,8 @@ const SquaresDemo = () => {
               Diagonal
             </Button>
             <Button
-              bg={direction === 'up' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === 'up' ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'up' ? '#FFD700' : '#1a1a1a'}
+              _hover={{ backgroundColor: `${direction === 'up' ? '#FFD700' : '#1a1a1a'}` }}
               color="white"
               fontSize="xs"
               h={8}
@@ -79,8 +79,8 @@ const SquaresDemo = () => {
               Up
             </Button>
             <Button
-              bg={direction === 'right' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === 'right' ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'right' ? '#FFD700' : '#1a1a1a'}
+              _hover={{ backgroundColor: `${direction === 'right' ? '#FFD700' : '#1a1a1a'}` }}
               color="white"
               fontSize="xs"
               h={8}
@@ -91,8 +91,8 @@ const SquaresDemo = () => {
               Right
             </Button>
             <Button
-              bg={direction === 'down' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === 'down' ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'down' ? '#FFD700' : '#1a1a1a'}
+              _hover={{ backgroundColor: `${direction === 'down' ? '#FFD700' : '#1a1a1a'}` }}
               color="white"
               fontSize="xs"
               h={8}
@@ -103,8 +103,8 @@ const SquaresDemo = () => {
               Down
             </Button>
             <Button
-              bg={direction === 'left' ? '#5227FF' : '#170D27'}
-              _hover={{ backgroundColor: `${direction === 'left' ? '#5227FF' : '#170D27'}` }}
+              bg={direction === 'left' ? '#FFD700' : '#1a1a1a'}
+              _hover={{ backgroundColor: `${direction === 'left' ? '#FFD700' : '#1a1a1a'}` }}
               color="white"
               fontSize="xs"
               h={8}
