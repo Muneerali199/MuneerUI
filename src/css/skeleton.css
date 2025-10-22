@@ -43,11 +43,11 @@
 
 @media (prefers-color-scheme: dark) {
   .skeleton-pulse {
-    background: linear-gradient(110deg, #374151 8%, #4b5563 18%, #374151 33%);
+    background: linear-gradient(110deg, #1a1a1a 8%, #2a2a2a 18%, #1a1a1a 33%);
   }
 
   .skeleton-pulse::before {
-    background: linear-gradient(90deg, transparent, rgba(82, 39, 255, 0.05), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.08), transparent);
   }
 }
 
