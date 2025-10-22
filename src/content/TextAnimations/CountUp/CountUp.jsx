@@ -27,6 +27,7 @@ export default function CountUp({
   const isInView = useInView(ref, { once: true, margin: '0px' });
 
   const getDecimalPlaces = num => {
+    if (num === null || num === undefined) return 0;
     const str = num.toString();
 
     if (str.includes('.')) {
@@ -40,7 +41,7 @@ export default function CountUp({
     return 0;
   };
 
-  const maxDecimals = Math.max(getDecimalPlaces(from), getDecimalPlaces(to));
+  const maxDecimals = Math.max(getDecimalPlaces(from || 0), getDecimalPlaces(to || 0));
 
   useEffect(() => {
     if (ref.current) {
