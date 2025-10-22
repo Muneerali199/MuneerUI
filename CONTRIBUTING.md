@@ -1,6 +1,6 @@
-# Contributing to MuneerUi
+# Contributing to MuneerUI
 
-Thank you for considering contributing to MuneerUi! I appreciate your interest in making this project better.
+Thank you for considering contributing to MuneerUI! We appreciate your interest in making this project better.
 
 To ensure a smooth collaboration, please read the following guidelines before getting started.
 
