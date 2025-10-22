@@ -42,7 +42,7 @@ const CodeOptions = ({ children }) => {
   const styleCollection = useMemo(() => createListCollection({ items: ['CSS', 'TW'] }), []);
 
   const iconMap = { JS: jsIcon, TS: tsIcon, CSS: cssIcon, TW: twIcon };
-  const colorMap = { JS: '#F7DF1E', TS: '#3178C6', CSS: '#B19EEF', TW: '#38BDF8' };
+  const colorMap = { JS: '#1a1a1a', TS: '#1a1a1a', CSS: '#1a1a1a', TW: '#1a1a1a' };
   const labelMap = { JS: 'JavaScript', TS: 'TypeScript', CSS: 'CSS', TW: 'Tailwind' };
 
   const LanguageSelect = (
@@ -93,7 +93,7 @@ const CodeOptions = ({ children }) => {
                 display="flex"
                 alignItems="center"
                 gap={2}
-                _highlighted={{ bg: '#271E37' }}
+                _highlighted={{ bg: '#2a2a2a' }}
               >
                 <Flex align="center" gap={2}>
                   <img src={iconMap[lang]} alt={lang} style={{ width: '20px', height: '20px' }} />
@@ -160,7 +160,7 @@ const CodeOptions = ({ children }) => {
                 py={1.5}
                 alignItems="center"
                 gap={2}
-                _highlighted={{ bg: '#271E37' }}
+                _highlighted={{ bg: '#2a2a2a' }}
               >
                 <Flex align="center" gap={2}>
                   <img src={iconMap[s]} alt={s} style={{ width: '20px', height: '20px' }} />
