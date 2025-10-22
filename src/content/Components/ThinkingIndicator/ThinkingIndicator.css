@@ -1,0 +1,187 @@
+.thinking-indicator {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.thinking-text {
+  font-size: 14px;
+  color: #E0E0E0;
+  font-weight: 500;
+}
+
+/* Dots Variant */
+.thinking-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.thinking-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  animation: dotBounce 1.4s infinite ease-in-out;
+}
+
+.thinking-dots span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.thinking-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.thinking-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes dotBounce {
+  0%, 60%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  30% {
+    transform: translateY(-12px) scale(1.2);
+  }
+}
+
+/* Pulse Variant */
+.thinking-pulse {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.pulse-core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+}
+
+.pulse-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #FFD700;
+  animation: pulseRing 1.5s infinite;
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Wave Variant */
+.thinking-wave {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.thinking-wave span {
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #FFD700, #FFA500);
+  border-radius: 2px;
+  animation: waveBar 1.2s infinite ease-in-out;
+}
+
+.thinking-wave span:nth-child(1) { animation-delay: 0s; }
+.thinking-wave span:nth-child(2) { animation-delay: 0.1s; }
+.thinking-wave span:nth-child(3) { animation-delay: 0.2s; }
+.thinking-wave span:nth-child(4) { animation-delay: 0.3s; }
+.thinking-wave span:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes waveBar {
+  0%, 100% {
+    height: 8px;
+  }
+  50% {
+    height: 24px;
+  }
+}
+
+/* Brain Variant */
+.thinking-brain {
+  width: 28px;
+  height: 28px;
+}
+
+.thinking-brain svg {
+  width: 100%;
+  height: 100%;
+}
+
+.brain-part {
+  fill: #FFD700;
+  animation: brainPulse 2s infinite ease-in-out;
+}
+
+.brain-part-1 {
+  animation-delay: 0s;
+}
+
+.brain-part-2 {
+  animation-delay: 0.3s;
+}
+
+.brain-part-3 {
+  animation-delay: 0.6s;
+}
+
+@keyframes brainPulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Size Variants */
+.thinking-sm {
+  padding: 8px 14px;
+}
+
+.thinking-sm .thinking-text {
+  font-size: 12px;
+}
+
+.thinking-sm .thinking-dots span,
+.thinking-sm .pulse-core {
+  width: 6px;
+  height: 6px;
+}
+
+.thinking-lg {
+  padding: 16px 24px;
+}
+
+.thinking-lg .thinking-text {
+  font-size: 16px;
+}
+
+.thinking-lg .thinking-dots span {
+  width: 10px;
+  height: 10px;
+}
