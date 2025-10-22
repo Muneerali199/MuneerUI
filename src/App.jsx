@@ -2,7 +2,7 @@ import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-route
 import { SearchProvider } from './components/context/SearchContext/SearchContext';
 import { OptionsProvider } from './components/context/OptionsContext/OptionsContext';
 import { TransitionProvider } from './components/context/TransitionContext/TransitionContext';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { ActiveRouteProvider } from './components/context/ActiveRouteContext/ActiveRouteContext';
 import { InstallationProvider } from './components/context/InstallationContext/InstallationContext';
 import { Toaster } from 'sonner';
@@ -16,6 +16,7 @@ import LandingPage from './pages/LandingPage';
 import CategoryPage from './pages/CategoryPage';
 import ShowcasePage from './pages/ShowcasePage';
 import Announcement from './components/common/Misc/Announcement';
+import LoadingScreen from './components/common/LoadingScreen/LoadingScreen';
 
 function AppContent() {
   const location = useLocation();
@@ -62,9 +63,22 @@ function AppContent() {
 }
 
 export default function App() {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     forceChakraDarkTheme();
+    
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
   }, []);
+
+  if (loading) {
+    return <LoadingScreen />;
+  }
 
   return (
     <Router>
