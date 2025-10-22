@@ -72,7 +72,7 @@ const LiquidChromeDemo = () => {
         <Customize>
           <Text fontSize="sm">Colors</Text>
           <Flex gap={4} wrap="wrap">
-            <Flex gap={4} align="center" mt={2} background="#170D27" px={4} borderRadius={16} position="relative">
+            <Flex gap={4} align="center" mt={2} background="#1a1a1a" px={4} borderRadius={16} position="relative">
               <PreviewSlider
                 min={0}
                 max={1}
@@ -90,7 +90,7 @@ const LiquidChromeDemo = () => {
               />
             </Flex>
 
-            <Flex gap={4} align="center" mt={2} background="#170D27" px={4} borderRadius={16} position="relative">
+            <Flex gap={4} align="center" mt={2} background="#1a1a1a" px={4} borderRadius={16} position="relative">
               <PreviewSlider
                 min={0}
                 max={1}
@@ -108,7 +108,7 @@ const LiquidChromeDemo = () => {
               />
             </Flex>
 
-            <Flex gap={4} align="center" mt={2} background="#170D27" px={4} borderRadius={16} position="relative">
+            <Flex gap={4} align="center" mt={2} background="#1a1a1a" px={4} borderRadius={16} position="relative">
               <PreviewSlider
                 min={0}
                 max={1}
