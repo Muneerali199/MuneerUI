@@ -9,9 +9,7 @@ import PropTable from '../../components/common/Preview/PropTable';
 import PreviewSelect from '../../components/common/Preview/PreviewSelect';
 import PreviewSwitch from '../../components/common/Preview/PreviewSwitch';
 import Dependencies from '../../components/code/Dependencies';
-
-import logoDark from '../../assets/logos/react-bits-logo-small-black.svg';
-import logoLight from '../../assets/logos/react-bits-logo-small.svg';
+import MuneerUILogo from '../../components/common/MuneerUILogo';
 
 import PillNav from '../../content/Components/PillNav/PillNav';
 import { pillNav } from '../../constants/code/Components/pillNavCode';
