@@ -14,7 +14,7 @@
     transform: translateX(-50%);
     width: 100%;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.5), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.3), transparent);
 }
 
 .stats-container {
@@ -31,8 +31,8 @@
 .stat-card {
     position: relative;
     padding: 3rem 2rem;
-    background: rgba(0, 255, 255, 0.02);
-    border: 1px solid rgba(0, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     text-align: center;
     transition: all 0.4s ease;
@@ -48,7 +48,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.1), transparent);
     transition: left 0.6s ease;
 }
 
@@ -63,7 +63,7 @@
     transform: translate(-50%, -50%);
     width: 200px;
     height: 200px;
-    background: radial-gradient(circle, rgba(0, 255, 255, 0.15) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.15) 0%, transparent 70%);
     opacity: 0;
     transition: opacity 0.4s ease;
     pointer-events: none;
@@ -75,21 +75,21 @@
 
 .stat-card:hover {
     transform: translateY(-10px);
-    border-color: rgba(0, 255, 255, 0.3);
-    box-shadow: 0 20px 60px rgba(0, 255, 255, 0.2), 0 0 80px rgba(0, 102, 255, 0.1);
-    background: rgba(0, 255, 255, 0.05);
+    border-color: rgba(255, 215, 0, 0.3);
+    box-shadow: 0 20px 60px rgba(255, 215, 0, 0.2), 0 0 80px rgba(255, 165, 0, 0.1);
+    background: rgba(255, 215, 0, 0.05);
 }
 
 .stat-value {
     font-size: 4rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #00ffff, #0066ff);
+    background: linear-gradient(135deg, #FFFFFF, #FFD700);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 0.5rem;
     line-height: 1;
-    filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.3));
+    filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.3));
 }
 
 .stat-label {
@@ -103,10 +103,10 @@
 .stat-line {
     width: 60px;
     height: 3px;
-    background: linear-gradient(90deg, #00ffff, #0066ff);
+    background: linear-gradient(90deg, #FFD700, #FFA500);
     margin: 1rem auto 0;
     border-radius: 2px;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
 @keyframes fadeInUp {
