@@ -191,7 +191,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
     <Dialog.Root open={isOpen} onOpenChange={onClose}>
       <Dialog.Backdrop bg="rgba(0,0,0,0.9)" />
       <Dialog.Positioner placement="top">
-        <Dialog.Content bg="#060010" border="1px solid #271E37" rounded="xl" mx={4} w="full" maxW="600px">
+        <Dialog.Content bg="#060010" border="1px solid #2a2a2a" rounded="xl" mx={4} w="full" maxW="600px">
           <Dialog.Body padding="1em 1em .2em 1em">
             <InputGroup startElement={<Icon as={FiSearch} color="#B19EEF" fontSize="18px" />} mb={2}>
               <Input
@@ -207,7 +207,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                 color="white"
                 _focus={{ bg: '#060010', borderColor: 'transparent' }}
                 _hover={{ bg: '#060010' }}
-                _placeholder={{ color: '#271E37' }}
+                _placeholder={{ color: '#2a2a2a' }}
               />
             </InputGroup>
 
@@ -221,7 +221,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                   transition={{ duration: 0.3 }}
                   style={{ overflow: 'hidden' }}
                 >
-                  <Box mt={0} borderTop="1px solid #271E37" position="relative">
+                  <Box mt={0} borderTop="1px solid #2a2a2a" position="relative">
                     <Box
                       ref={resultsRef}
                       maxH={400}
@@ -246,7 +246,7 @@ const SearchDialog = ({ isOpen, onClose }) => {
                                 mr=".6em"
                                 mb={2}
                                 p="1em"
-                                bg={selected ? '#271E37' : '#170D27'}
+                                bg={selected ? '#2a2a2a' : '#1a1a1a'}
                                 rounded="xl"
                                 display="flex"
                                 alignItems="center"
