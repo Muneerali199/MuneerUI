@@ -1,6 +1,6 @@
 export default {
   'code[class*="language-"]': {
-    color: '#988BC7',
+    color: '#E0E0E0',
     background: 'none',
     fontFamily: 'Google Sans Code, monospace',
     fontSize: '1em',
@@ -20,7 +20,7 @@ export default {
     hyphens: 'none'
   },
   'pre[class*="language-"]': {
-    color: '#988BC7',
+    color: '#E0E0E0',
     background: 'none',
     fontFamily: 'Google Sans Code, monospace',
     fontSize: '1em',
@@ -41,29 +41,29 @@ export default {
     margin: '.5em 0',
     overflow: 'auto',
     backgroundColor: 'transparent !important',
-    backgroundImage: 'linear-gradient(to bottom, #2a2139 75%, #34294f)'
+    backgroundImage: 'linear-gradient(to bottom, #1a1a1a 75%, #0a0a0a)'
   },
   ':not(pre) > code[class*="language-"]': {
     backgroundColor: 'transparent !important',
-    backgroundImage: 'linear-gradient(to bottom, #2a2139 75%, #34294f)',
+    backgroundImage: 'linear-gradient(to bottom, #1a1a1a 75%, #0a0a0a)',
     padding: '.1em',
     borderRadius: '.3em',
     whiteSpace: 'normal'
   },
   comment: {
-    color: '#5A4B81'
+    color: '#808080'
   },
   'block-comment': {
-    color: '#5A4B81'
+    color: '#808080'
   },
   prolog: {
-    color: '#5A4B81'
+    color: '#808080'
   },
   doctype: {
-    color: '#5A4B81'
+    color: '#808080'
   },
   cdata: {
-    color: '#5A4B81'
+    color: '#808080'
   },
   punctuation: {
     color: '#ccc'
@@ -109,7 +109,7 @@ export default {
   },
   // tags and classes
   'class-name': {
-    color: '#988BC7'
+    color: '#FFD700'
   },
   constant: {
     color: '#ffffff'
@@ -118,7 +118,7 @@ export default {
     color: '#ffffff'
   },
   important: {
-    color: '#988BC7',
+    color: '#E0E0E0',
     fontWeight: 'bold'
   },
   atrule: {
@@ -128,25 +128,25 @@ export default {
     color: '#ffffff'
   },
   'selector.class': {
-    color: '#988BC7'
+    color: '#FFD700'
   },
   builtin: {
     color: '#ffffff'
   },
   string: {
-    color: '#DAD1F6'
+    color: '#FFF4CC'
   },
   char: {
-    color: '#DAD1F6'
+    color: '#FFF4CC'
   },
   'attr-value': {
-    color: '#DAD1F6'
+    color: '#FFF4CC'
   },
   regex: {
-    color: '#DAD1F6'
+    color: '#FFF4CC'
   },
   variable: {
-    color: '#DAD1F6'
+    color: '#FFF4CC'
   },
   operator: {
     color: '#FF79C6'
