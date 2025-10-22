@@ -1,13 +1,16 @@
 // Highlighted sidebar items
 export const NEW = [
-  'Premium Pricing Card',
+  'Chat Bubble',
+  'Thinking Indicator',
+  'Progress Bar',
+  'Command Palette',
+  'AI Code Block',
   'Morphing Card',
   'Liquid Button',
   'Parallax Hero',
   'Holographic Card',
   'Glass Card',
   'Magnetic Button',
-  'Pricing Card',
   'Payment Form',
   'Checkout Flow',
   'Aurora Waves',
@@ -108,8 +111,11 @@ export const CATEGORIES = [
   {
     name: 'Components',
     subcategories: [
-      'Premium Pricing Card',
-      'Pricing Card',
+      'Chat Bubble',
+      'Thinking Indicator',
+      'Progress Bar',
+      'Command Palette',
+      'AI Code Block',
       'Payment Form',
       'Checkout Flow',
       'Animated List',
