@@ -66,7 +66,7 @@ const PreviewSelect = ({
                     fontSize="14px"
                     borderRadius="10px"
                     cursor="pointer"
-                    _highlighted={{ bg: '#271E37' }}
+                    _highlighted={{ bg: '#333333' }}
                   >
                     <Select.ItemText>{labelMap[val]}</Select.ItemText>
                     <Select.ItemIndicator />
