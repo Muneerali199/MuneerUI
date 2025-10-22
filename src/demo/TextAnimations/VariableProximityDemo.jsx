@@ -94,8 +94,8 @@ const VariableProximityDemo = () => {
                 size="sm"
                 color="#ffffff"
                 borderRadius="10px"
-                border={type === falloff ? '1px solid #170D27' : '1px solid #271E37'}
-                bg={type === falloff ? '#5227FF' : '#170D27'}
+                border={type === falloff ? '1px solid #1a1a1a' : '1px solid #2a2a2a'}
+                bg={type === falloff ? '#FFD700' : '#1a1a1a'}
                 onClick={() => setFalloff(type)}
               >
                 {type}
