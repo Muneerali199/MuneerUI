@@ -7,15 +7,15 @@ import { FiCode, FiEye, FiHeart } from 'react-icons/fi';
 
 const TAB_STYLE_PROPS = {
   flex: '0 0 auto',
-  border: '1px solid #392e4e',
+  border: '1px solid rgba(255, 215, 0, 0.2)',
   borderRadius: '15px',
   fontSize: '14px',
   h: 10,
   px: 4,
   color: '#ffffff',
   justifyContent: 'center',
-  _hover: { bg: '#271E37' },
-  _selected: { bg: '#170D27', color: '#B19EEF' }
+  _hover: { bg: '#1a1a1a' },
+  _selected: { bg: '#000000', color: '#FFD700' }
 };
 
 const TabsLayout = ({ children, className }) => {
