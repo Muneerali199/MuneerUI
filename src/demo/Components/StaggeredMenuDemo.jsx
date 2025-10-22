@@ -9,7 +9,6 @@ import Dependencies from '../../components/code/Dependencies';
 import PreviewSwitch from '../../components/common/Preview/PreviewSwitch';
 import PreviewSelect from '../../components/common/Preview/PreviewSelect';
 import useForceRerender from '../../hooks/useForceRerender';
-import logo from '../../assets/logos/reactbits-gh-white.svg';
 
 import { staggeredMenu } from '../../constants/code/Components/staggeredMenuCode';
 import StaggeredMenu from '@content/Components/StaggeredMenu/StaggeredMenu';
@@ -127,7 +126,6 @@ const StaggeredMenuDemo = () => {
         <Box position="relative" className="demo-container demo-container-dots" h={800} overflow="hidden" p={0}>
           <StaggeredMenu
             key={menuKey}
-            logoUrl={logo}
             items={items}
             socialItems={socialItems}
             openMenuButtonColor={position === 'left' ? '#fff' : '#000'}
