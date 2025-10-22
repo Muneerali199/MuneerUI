@@ -48,13 +48,15 @@ const Stats = () => {
               <div className="stat-glow"></div>
               <div className="stat-value">
                 {isVisible ? (
-                  <CountUp
-                    start={0}
-                    end={stat.value}
-                    duration={2}
-                    separator=","
-                    suffix={stat.suffix}
-                  />
+                  <>
+                    <CountUp
+                      from={0}
+                      to={stat.value}
+                      duration={2}
+                      separator=","
+                    />
+                    {stat.suffix}
+                  </>
                 ) : (
                   '0' + stat.suffix
                 )}
