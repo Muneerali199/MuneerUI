@@ -9,38 +9,7 @@ import '../css/showcase.css';
 const ShowcasePage = () => {
   useEffect(() => window.scrollTo(0, 0), []);
 
-  const showcaseItems = [
-    {
-      name: 'Matthew',
-      url: 'https://www.matthewporteous.com/',
-      using: '<AnimatedContent />'
-    },
-    {
-      name: 'Oscar',
-      url: 'https://oscarhernandez.vercel.app',
-      using: '<LetterGlitch />'
-    },
-    {
-      name: 'Izadoesdev',
-      url: 'https://app.databuddy.cc/login',
-      using: '<Iridescence />'
-    },
-    {
-      name: 'Afaq',
-      url: 'https://www.evolvion.io/',
-      using: '<SpotlightCard />'
-    },
-    {
-      name: 'Deepraj',
-      url: 'https://www.architech-dev.tech/',
-      using: '<CardSwap />'
-    },
-    {
-      name: 'Devraj',
-      url: 'https://devrajchatribin.com/about',
-      using: '<CountUp />'
-    }
-  ];
+  const showcaseItems = [];
 
   return (
     <>
