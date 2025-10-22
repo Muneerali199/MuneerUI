@@ -11,7 +11,7 @@ const CodeCell = ({ content = '' }) => {
       width="fit-content"
       fontWeight={500}
       color="#e9e9e9"
-      backgroundColor="#271E37"
+      backgroundColor="#FFD700"
     >
       {content}
     </Box>
@@ -24,80 +24,80 @@ const PropTable = ({ data }) => {
       <h2 className="demo-title-extra">Props</h2>
       <Box overflowX="auto" mt={6}>
         <Table.Root variant="line" size="sm" className="props-table">
-          <Table.Header borderBottom="1px solid #392e4e">
-            <Table.Row backgroundColor="#170D27" borderRadius="20px">
+          <Table.Header borderBottom="1px solid #333">
+            <Table.Row backgroundColor="#333" borderRadius="20px">
               <Table.ColumnHeader
                 letterSpacing="-.5px"
-                borderRight="1px solid #392e4e"
+                borderRight="1px solid #333"
                 textTransform={'capitalize'}
                 fontSize={'l'}
                 p={4}
-                color="white"
+                color="#FFD700"
               >
                 Property
               </Table.ColumnHeader>
               <Table.ColumnHeader
                 letterSpacing="-.5px"
-                borderRight="1px solid #392e4e"
+                borderRight="1px solid #333"
                 textTransform={'capitalize'}
                 fontSize={'l'}
                 p={4}
-                color="white"
+                color="#FFD700"
               >
                 Type
               </Table.ColumnHeader>
               <Table.ColumnHeader
                 letterSpacing="-.5px"
-                borderRight="1px solid #392e4e"
+                borderRight="1px solid #333"
                 textTransform={'capitalize'}
                 fontSize={'l'}
                 p={4}
-                color="white"
+                color="#FFD700"
               >
                 Default
               </Table.ColumnHeader>
-              <Table.ColumnHeader letterSpacing="-.5px" textTransform={'capitalize'} fontSize={'l'} p={4} color="white">
+              <Table.ColumnHeader letterSpacing="-.5px" textTransform={'capitalize'} fontSize={'l'} p={4} color="#FFD700">
                 Description
               </Table.ColumnHeader>
             </Table.Row>
           </Table.Header>
           <Table.Body>
             {data.map((prop, index) => (
-              <Table.Row key={index} borderBottom={index === data.length - 1 ? 'none' : '1px solid #392e4e'}>
+              <Table.Row key={index} borderBottom={index === data.length - 1 ? 'none' : '1px solid #333'}>
                 <Table.Cell
-                  borderColor="#271E37"
+                  borderColor="#333"
                   p={2}
                   color="white"
                   width={0}
-                  borderRight="1px solid #392e4e"
-                  bg={'#060010'}
+                  borderRight="1px solid #333"
+                  bg={'#333'}
                 >
                   <CodeCell rightJustified content={prop.name} />
                 </Table.Cell>
                 <Table.Cell
-                  borderColor="#271E37"
+                  borderColor="#333"
                   p={4}
                   color="white"
                   whiteSpace="nowrap"
                   width={'120px'}
-                  borderRight="1px solid #392e4e"
-                  bg={'#060010'}
+                  borderRight="1px solid #333"
+                  bg={'#333'}
                 >
                   <Text fontFamily="monospace" fontWeight={500}>
                     {prop.type}
                   </Text>
                 </Table.Cell>
                 <Table.Cell
-                  borderColor="#271E37"
+                  borderColor="#333"
                   p={2}
                   color="white"
-                  borderRight="1px solid #392e4e"
+                  borderRight="1px solid #333"
                   whiteSpace="nowrap"
-                  bg={'#060010'}
+                  bg={'#333'}
                 >
                   <CodeCell content={prop.default && prop.default.length ? prop.default : '—'} />
                 </Table.Cell>
-                <Table.Cell borderColor="#271E37" p={4} color="white" bg={'#060010'}>
+                <Table.Cell borderColor="#333" p={4} color="white" bg={'#333'}>
                   <Text maxW={300}>{prop.description}</Text>
                 </Table.Cell>
               </Table.Row>
