@@ -3,7 +3,7 @@ import { Box, Text } from '@chakra-ui/react';
 import { TbBackground, TbMenu } from 'react-icons/tb';
 
 import PreviewSwitch from './PreviewSwitch';
-import logo from '../../../assets/logos/react-bits-logo.svg';
+import MuneerUILogo from '../MuneerUILogo';
 
 const BackgroundContent = ({
   pillText = 'New Component',
@@ -51,7 +51,7 @@ const BackgroundContent = ({
                 boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)'
               }}
             >
-              <img src={logo} alt="MuneerUI Logo" style={{ height: '24px', borderRadius: '50px' }} />
+              <MuneerUILogo variant="white" size="md" />
 
               <Box display={{ base: 'flex', md: 'none' }} alignItems="center" color="white">
                 <TbMenu size={20} />
