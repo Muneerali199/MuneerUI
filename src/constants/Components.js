@@ -65,7 +65,11 @@ const textAnimations = {
 };
 
 const components = {
-  'pricing-card': () => import('../demo/Components/PricingCardDemo'),
+  'chat-bubble': () => import('../demo/Components/ChatBubbleDemo'),
+  'thinking-indicator': () => import('../demo/Components/ThinkingIndicatorDemo'),
+  'progress-bar': () => import('../demo/Components/ProgressBarDemo'),
+  'command-palette': () => import('../demo/Components/CommandPaletteDemo'),
+  'ai-code-block': () => import('../demo/Components/AICodeBlockDemo'),
   'payment-form': () => import('../demo/Components/PaymentFormDemo'),
   'checkout-flow': () => import('../demo/Components/CheckoutFlowDemo'),
   'stack': () => import('../demo/Components/StackDemo'),
