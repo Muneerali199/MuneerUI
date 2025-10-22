@@ -1,6 +1,6 @@
 .components-preview-section {
     padding: 8rem 2rem;
-    background: linear-gradient(180deg, #334155 0%, #0A0A0A 100%);
+    background: linear-gradient(180deg, #0A0A0A 0%, #000000 100%);
     position: relative;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .component-preview-card {
-    --card-gradient: linear-gradient(135deg, #E0E0E0, #6366F1);
+    --card-gradient: linear-gradient(135deg, #FFD700, #FFA500);
     position: relative;
     padding: 2rem;
     background: rgba(255, 255, 255, 0.02);
@@ -175,7 +175,7 @@
     align-items: center;
     gap: 1rem;
     padding: 1.25rem 2.5rem;
-    background: linear-gradient(135deg, #E0E0E0, #6366F1);
+    background: linear-gradient(135deg, #FFD700, #FFA500);
     color: #fff;
     font-size: 1.1rem;
     font-weight: 600;
