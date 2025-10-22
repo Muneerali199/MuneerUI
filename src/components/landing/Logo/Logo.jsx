@@ -13,7 +13,7 @@ const Logo = () => {
               <stop offset="100%" stopColor="#FFD700" />
             </linearGradient>
             <linearGradient id="logoGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#60A5FA" />
+              <stop offset="0%" stopColor="#FFFFFF" />
               <stop offset="50%" stopColor="#E0E0E0" />
               <stop offset="100%" stopColor="#FFD700" />
             </linearGradient>
