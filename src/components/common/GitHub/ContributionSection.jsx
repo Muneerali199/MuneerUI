@@ -7,7 +7,7 @@ const ContributionSection = () => {
 
   return (
     <Box className="contribute-container">
-      <Text fontSize={{ base: '1rem', md: '1.65rem' }} color="#B19EEF" className="demo-title-contribute">
+      <Text fontSize={{ base: '1rem', md: '1.65rem' }} color="#FFD700" className="demo-title-contribute">
         Help improve this component!
       </Text>
       <Flex gap={2} justifyContent="center" alignItems="center" direction={{ base: 'column', md: 'row' }}>
@@ -18,10 +18,10 @@ const ContributionSection = () => {
           rel="noreferrer"
           target="_blank"
           fontSize="xs"
-          bg="#170D27"
+          bg="#1a1a1a"
           borderRadius="10px"
-          border="1px solid #271E37"
-          _hover={{ bg: '#271E37' }}
+          border="1px solid #2a2a2a"
+          _hover={{ bg: '#2a2a2a' }}
           color="#fff"
           h={10}
           w={{ base: '90%', md: 'auto' }}
@@ -39,10 +39,10 @@ const ContributionSection = () => {
           rel="noreferrer"
           target="_blank"
           fontSize="xs"
-          bg="#170D27"
+          bg="#1a1a1a"
           borderRadius="10px"
-          border="1px solid #271E37"
-          _hover={{ bg: '#271E37' }}
+          border="1px solid #2a2a2a"
+          _hover={{ bg: '#2a2a2a' }}
           color="#fff"
           h={10}
           w={{ base: '90%', md: 'auto' }}
