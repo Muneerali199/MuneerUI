@@ -104,10 +104,10 @@ const SplitTextDemo = () => {
           <Flex gap={2} wrap="wrap">
             <Button
               fontSize="xs"
-              bg="#170D27"
+              bg="#1a1a1a"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: '#271E37' }}
+              border="1px solid #2a2a2a"
+              _hover={{ bg: '#2a2a2a' }}
               color="#fff"
               h={8}
               onClick={() => {
@@ -119,10 +119,10 @@ const SplitTextDemo = () => {
             </Button>
             <Button
               fontSize="xs"
-              bg="#170D27"
+              bg="#1a1a1a"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: '#271E37' }}
+              border="1px solid #2a2a2a"
+              _hover={{ bg: '#2a2a2a' }}
               color="#fff"
               h={8}
               onClick={() => {
