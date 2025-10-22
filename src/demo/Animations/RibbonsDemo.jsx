@@ -102,7 +102,7 @@ const RibbonsDemo = () => {
     <TabsLayout>
       <PreviewTab>
         <Box position="relative" className="demo-container" h={500} p={0} overflow="hidden">
-          <Text position="absolute" fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} color="#271E37">
+          <Text position="absolute" fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} color="#2a2a2a">
             Hover Me.
           </Text>
           <Ribbons
@@ -121,10 +121,10 @@ const RibbonsDemo = () => {
             <IconButton
               onClick={() => colors.length > 1 && setColors(colors.slice(0, -1))}
               fontSize="xs"
-              bg="#170D27"
+              bg="#1a1a1a"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: '#271E37' }}
+              border="1px solid #2a2a2a"
+              _hover={{ bg: '#2a2a2a' }}
               color="#fff"
               h={10}
             >
@@ -133,10 +133,10 @@ const RibbonsDemo = () => {
             <Text>{colors.length}</Text>
             <IconButton
               fontSize="xs"
-              bg="#170D27"
+              bg="#1a1a1a"
               borderRadius="10px"
-              border="1px solid #271E37"
-              _hover={{ bg: '#271E37' }}
+              border="1px solid #2a2a2a"
+              _hover={{ bg: '#2a2a2a' }}
               color="#fff"
               h={10}
               onClick={() => {
