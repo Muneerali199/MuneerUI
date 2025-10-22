@@ -190,7 +190,7 @@ const CliInstallation = ({ deps }) => {
       backgroundColor={copied ? '#5227FF' : '#060010'}
       border="1px solid #392e4e"
       color={copied ? 'black' : 'white'}
-      _hover={{ backgroundColor: copied ? '#5227FF' : '#170D27' }}
+      _hover={{ backgroundColor: copied ? '#5227FF' : '#1a1a1a' }}
       _active={{ backgroundColor: '#5227FF' }}
       transition="background-color 0.3s ease"
       onClick={handleCopy}
@@ -369,7 +369,7 @@ const CliInstallation = ({ deps }) => {
                           display="flex"
                           alignItems="center"
                           gap={2}
-                          _highlighted={{ bg: '#271E37' }}
+                          _highlighted={{ bg: '#2a2a2a' }}
                         >
                           <Box display="flex" alignItems="center" gap={2}>
                             <img src={cliIconMap[tool]} alt={tool} style={{ width: '20px', height: '20px' }} />
