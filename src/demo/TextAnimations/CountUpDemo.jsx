@@ -113,9 +113,9 @@ const CountUpDemo = () => {
           minH={200}
         >
           <Button
-            bg="#170D27"
+            bg="#1a1a1a"
             borderRadius="10px"
-            border="1px solid #271E37"
+            border="1px solid #2a2a2a"
             color="#fff"
             onClick={() => setStartCounting(true)}
           >
