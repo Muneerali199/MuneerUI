@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 // use your own icon import if react-icons is not available
 import { GoArrowUpRight } from 'react-icons/go';
 import './CardNav.css';
+import MuneerUILogo from '../../../components/common/MuneerUILogo';
 
 const CardNav = ({
   logo,
@@ -150,7 +151,7 @@ const CardNav = ({
           </div>
 
           <div className="logo-container">
-            <img src={logo} alt={logoAlt} className="logo" />
+            <MuneerUILogo variant="dark" size="md" />
           </div>
 
           <button
