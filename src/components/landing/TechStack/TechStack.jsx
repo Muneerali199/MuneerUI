@@ -38,12 +38,12 @@ const TechStack = () => {
   }, []);
 
   const technologies = [
-    { icon: <FaReact />, name: 'React', color: '#61dafb' },
-    { icon: <FaJs />, name: 'JavaScript', color: '#f7df1e' },
-    { icon: <SiTypescript />, name: 'TypeScript', color: '#3178c6' },
-    { icon: <SiTailwindcss />, name: 'Tailwind CSS', color: '#06b6d4' },
-    { icon: <SiFramer />, name: 'Framer Motion', color: '#00ffff' },
-    { icon: <SiVite />, name: 'Vite', color: '#646cff' },
+    { icon: <FaReact />, name: 'React', color: '#FFD700' },
+    { icon: <FaJs />, name: 'JavaScript', color: '#FFA500' },
+    { icon: <SiTypescript />, name: 'TypeScript', color: '#E0E0E0' },
+    { icon: <SiTailwindcss />, name: 'Tailwind CSS', color: '#FFD700' },
+    { icon: <SiFramer />, name: 'Framer Motion', color: '#FFA500' },
+    { icon: <SiVite />, name: 'Vite', color: '#E0E0E0' },
   ];
 
   return (
