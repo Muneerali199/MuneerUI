@@ -49,10 +49,10 @@ const Header = () => {
   };
 
   const colorMap = {
-    JS: '#F7DF1E',
-    TS: '#3178C6',
-    CSS: '#7E57C2',
-    TW: '#38BDF8'
+    JS: '#FFD700',
+    TS: '#333',
+    CSS: '#333',
+    TW: '#FFD700'
   };
 
   const LanguageSelect = (
@@ -70,13 +70,13 @@ const Header = () => {
         <Select.Trigger
           fontSize="14px"
           bg="#060010"
-          border="1px solid #271E37"
+          border="1px solid #2a2a2a"
           rounded="full"
           h={10}
           fontWeight={600}
           cursor="pointer"
           transition="background 0.3s"
-          _hover={{ background: '#170D27' }}
+          _hover={{ background: '#1a1a1a' }}
         >
           <Select.ValueText color="#fff" pl={1} fontSize="14px">
             {languagePreset && <Image src={iconMap[languagePreset]} alt={languagePreset} boxSize={5} />}
@@ -91,7 +91,7 @@ const Header = () => {
         <Select.Positioner>
           <Select.Content
             bg="#060010"
-            border="1px solid #271E37"
+            border="1px solid #2a2a2a"
             borderRadius="15px"
             w="70px"
             px={2}
@@ -109,7 +109,7 @@ const Header = () => {
                 display="flex"
                 alignItems="center"
                 gap={2}
-                _highlighted={{ bg: '#271E37' }}
+                _highlighted={{ bg: '#2a2a2a' }}
               >
                 <Image src={iconMap[lang]} alt={lang} boxSize={5} />
                 <Select.ItemIndicator display="flex" alignItems="center" mr="3px">
@@ -137,13 +137,13 @@ const Header = () => {
         <Select.Trigger
           fontSize="12px"
           bg="#060010"
-          border="1px solid #271E37"
+          border="1px solid #2a2a2a"
           rounded="full"
           h={10}
           fontWeight={600}
           cursor="pointer"
           transition="background 0.3s"
-          _hover={{ background: '#170D27' }}
+          _hover={{ background: '#1a1a1a' }}
         >
           <Select.ValueText color="#fff" pl={1} fontSize="14px">
             {stylePreset && <Image src={iconMap[stylePreset]} alt={stylePreset} boxSize={5} />}
@@ -157,7 +157,7 @@ const Header = () => {
         <Select.Positioner>
           <Select.Content
             bg="#060010"
-            border="1px solid #271E37"
+            border="1px solid #2a2a2a"
             borderRadius="15px"
             w="70px"
             px={2}
@@ -175,7 +175,7 @@ const Header = () => {
                 display="flex"
                 alignItems="center"
                 gap={2}
-                _highlighted={{ bg: '#271E37' }}
+                _highlighted={{ bg: '#2a2a2a' }}
               >
                 <Image src={iconMap[style]} alt={style} boxSize={5} />
                 <Select.ItemIndicator display="flex" alignItems="center" mr="3px">
@@ -216,31 +216,31 @@ const Header = () => {
               pl={3}
               rounded="full"
               bg="#060010"
-              border="1px solid #271E37"
+              border="1px solid #2a2a2a"
               fontWeight={600}
               align="center"
               gap={1}
               cursor="text"
               userSelect="none"
               transition="background 0.3s"
-              _hover={{ background: '#170D27' }}
+              _hover={{ background: '#1a1a1a' }}
               onClick={toggleSearch}
             >
-              <Icon as={FiSearch} boxSize={4} color="#392e4e" />
+              <Icon as={FiSearch} boxSize={4} color="rgba(255, 215, 0, 0.2)" />
               <Text mr={8} color="#a6a6a6">
                 Search Docs
               </Text>
               <Kbd
                 color="#B19EEF"
                 fontSize="10px"
-                borderColor="#271E37"
+                borderColor="#2a2a2a"
                 borderRadius="50px"
                 width="20px"
                 height="20px"
                 display="flex"
                 alignItems="center"
                 justifyContent="center"
-                backgroundColor="#170D27"
+                backgroundColor="#1a1a1a"
                 fontWeight={800}
               >
                 /
