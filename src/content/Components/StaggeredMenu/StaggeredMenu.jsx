@@ -1,7 +1,7 @@
 import React, { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import './StaggeredMenu.css';
-import MuneerUILogo from '../../../components/common/MuneerUILogo';
+import MuneerUILogo from './MuneerUILogo';
 
 export const StaggeredMenu = ({
   position = 'right',
