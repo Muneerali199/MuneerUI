@@ -61,7 +61,7 @@ const CodeHighlighter = ({ language, codeString, showLineNumbers = true, maxLine
         )}
 
         {!codeString && (
-          <Flex alignItems="center" gap={2} my={2} color="#a1a1aa">
+          <Flex alignItems="center" gap={2} my={2} color="#2a2a2aa1aa">
             <Text>Sorry, this combination is not supported</Text>
             <Icon as={TbMoodSad} />
           </Flex>
@@ -89,8 +89,8 @@ const CodeHighlighter = ({ language, codeString, showLineNumbers = true, maxLine
             backgroundColor="#060010"
             border="1px solid #392e4e"
             color="white"
-            _hover={{ backgroundColor: '#170D27' }}
-            _active={{ backgroundColor: '#170D27' }}
+            _hover={{ backgroundColor: '#1a1a1a' }}
+            _active={{ backgroundColor: '#1a1a1a' }}
             zIndex={2}
             onClick={() => setExpanded(prev => !prev)}
           >
@@ -110,7 +110,7 @@ const CodeHighlighter = ({ language, codeString, showLineNumbers = true, maxLine
           backgroundColor={copied ? '#5227FF' : '#060010'}
           border="1px solid #392e4e"
           color={copied ? 'black' : 'white'}
-          _hover={{ backgroundColor: copied ? '#5227FF' : '#170D27' }}
+          _hover={{ backgroundColor: copied ? '#5227FF' : '#1a1a1a' }}
           _active={{ backgroundColor: '#5227FF' }}
           transition="background-color 0.3s ease"
           onClick={handleCopy}
